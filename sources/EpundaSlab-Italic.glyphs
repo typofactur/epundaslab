@@ -1,16 +1,6 @@
 {
 .appVersion = "3260";
 .formatVersion = 3;
-DisplayStrings = (
-"[",
-"]",
-"!",
-"¡",
-"«»‹›",
-"！",
-":",
-"−÷±≈"
-);
 axes = (
 {
 name = Weight;
@@ -50692,8 +50682,9 @@ width = 600;
 );
 },
 {
+export = 0;
 glyphname = _serif.Spur;
-lastChange = "2023-01-02 16:10:00 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -50728,8 +50719,9 @@ width = 225;
 );
 },
 {
+export = 0;
 glyphname = _serif.C.BR;
-lastChange = "2022-11-28 20:27:54 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -50764,8 +50756,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.C.TR;
-lastChange = "2022-11-28 23:52:27 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -50800,8 +50793,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.E.TR;
-lastChange = "2022-11-28 19:37:51 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -50836,8 +50830,9 @@ width = 100;
 );
 },
 {
+export = 0;
 glyphname = _serif.I.BL;
-lastChange = "2023-01-02 16:10:37 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -50872,8 +50867,9 @@ width = 110;
 );
 },
 {
+export = 0;
 glyphname = _serif.I.BR;
-lastChange = "2023-01-02 16:18:04 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -50908,8 +50904,9 @@ width = 170;
 );
 },
 {
+export = 0;
 glyphname = _serif.I.TL;
-lastChange = "2022-11-28 23:29:37 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -50944,8 +50941,9 @@ width = 110;
 );
 },
 {
+export = 0;
 glyphname = _serif.I.TR;
-lastChange = "2023-01-02 16:14:38 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -50980,8 +50978,9 @@ width = 110;
 );
 },
 {
+export = 0;
 glyphname = _serif.S.BL;
-lastChange = "2022-11-28 20:00:59 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51016,8 +51015,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.S.BR;
-lastChange = "2022-11-28 19:50:18 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51052,8 +51052,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.T.TL;
-lastChange = "2022-11-28 20:05:52 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51088,8 +51089,9 @@ width = 100;
 );
 },
 {
+export = 0;
 glyphname = _serif.T.TR;
-lastChange = "2022-11-28 19:58:41 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51124,8 +51126,9 @@ width = 100;
 );
 },
 {
+export = 0;
 glyphname = _serif.Z.BR;
-lastChange = "2022-11-28 20:05:13 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51160,8 +51163,9 @@ width = 100;
 );
 },
 {
+export = 0;
 glyphname = _serif.a.TL;
-lastChange = "2022-11-29 00:37:58 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51196,8 +51200,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.r.TR;
-lastChange = "2022-11-28 19:53:51 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51232,8 +51237,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.s.BL;
-lastChange = "2022-11-28 20:24:44 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51268,8 +51274,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.s.BR;
-lastChange = "2022-11-28 20:24:04 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
@@ -51304,8 +51311,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.s.TR;
-lastChange = "2022-11-28 23:54:09 +0000";
+lastChange = "2024-12-24 16:16:34 +0000";
 layers = (
 {
 layerId = m003;
