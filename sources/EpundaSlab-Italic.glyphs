@@ -40921,31 +40921,6 @@ metricRight = "=|";
 unicode = 45;
 },
 {
-glyphname = softhyphen;
-lastChange = "2022-11-26 12:52:18 +0000";
-layers = (
-{
-layerId = m003;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 451;
-},
-{
-layerId = m004;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 457;
-}
-);
-unicode = 173;
-},
-{
 glyphname = endash;
 lastChange = "2022-11-26 12:52:18 +0000";
 layers = (
