@@ -10,34 +10,7 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[1] Family checks</summary>
-<div>
-<details>
-    <summary>⚠️ <b>WARN</b> Make sure all font files have the same version value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Version info differs among font files of the same font project.
-These were the version values found:</p>
-<ul>
-<li>fonts/variable/EpundaSlab-Italic[wght].ttf: 1.001007080078125</li>
-<li>fonts/variable/EpundaSlab[wght].ttf: 1.0019989013671875</li>
-</ul>
- [code: mismatch]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[8] EpundaSlab-Italic[wght].ttf</summary>
+<details><summary>[7] EpundaSlab-Italic[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
@@ -70,28 +43,6 @@ These were the version values found:</p>
 * 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
 <p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
  [code: instance-too-long]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Dcroat.001
-
-- unbenannt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -132,24 +83,24 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, duployan, todhri, math, canadian-aboriginal, malayalam, tai-le, tifinagh, hebrew, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, syriac, tai-le, todhri, malayalam, old-permic, hebrew, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, sunuwar, tifinagh, thai, cherokee, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, syriac, caucasian-albanian, sunuwar, cherokee, tifinagh, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -178,12 +129,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: myanmar, tai-tham, bengali, new-tai-lue, tai-viet, hanunoo, buhid, kayah-li, limbu, manichaean, telugu, phags-pa, tamil, thai, sharada, hanifi-rohingya, hebrew, javanese, nko, warang-citi, bhaiksuki, batak, cham, syloti-nagri, duployan, yi, devanagari, kharoshthi, rejang, grantha, balinese, khojki, thaana, khudawadi, tai-le, tifinagh, lao, psalter-pahlavi, zanabazar-square, chakma, buginese, tagalog, lepcha, mahajani, avestan, tagbanwa, tibetan, newa, arabic, gunjala-gondi, meetei-mayek, modi, kaithi, sundanese, dogra, gurmukhi, mandaic, mongolian, syriac, oriya, sogdian, hatran, sinhala, saurashtra, siddham, masaram-gondi, kannada, malayalam, pahawh-hmong, tirhuta, brahmi, khmer, gujarati, takri</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: myanmar, tai-tham, old-hungarian, bengali, new-tai-lue, tai-viet, hanunoo, buhid, kayah-li, limbu, manichaean, telugu, phags-pa, tamil, thai, sharada, hanifi-rohingya, hebrew, javanese, nko, warang-citi, bhaiksuki, batak, cham, syloti-nagri, duployan, yi, devanagari, kharoshthi, rejang, grantha, balinese, khojki, thaana, khudawadi, tai-le, tifinagh, lao, psalter-pahlavi, zanabazar-square, chakma, buginese, tagalog, lepcha, mahajani, avestan, tagbanwa, tibetan, newa, arabic, gunjala-gondi, meetei-mayek, modi, kaithi, sundanese, dogra, gurmukhi, mandaic, mongolian, syriac, oriya, sogdian, sinhala, saurashtra, siddham, masaram-gondi, kannada, malayalam, pahawh-hmong, tirhuta, brahmi, khmer, gujarati, takri</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, thaana, phags-pa, hebrew, nko, syriac</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, phags-pa, hebrew, nko, syriac</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: siddham, gujarati, kaithi, syriac, devanagari, syloti-nagri, mahajani, mongolian, pahawh-hmong, phags-pa, takri, hebrew, thai, psalter-pahlavi, tagalog, new-tai-lue, khmer, tifinagh, saurashtra, cham, duployan, tai-le, chakma, hanifi-rohingya, kannada, bhaiksuki, kharoshthi, malayalam, tai-viet, tibetan, arabic, javanese, manichaean, modi, sogdian, yi, hatran, kayah-li, newa, oriya, buhid, telugu, meetei-mayek, tirhuta, grantha, sharada, gunjala-gondi, warang-citi, balinese, mandaic, khudawadi, rejang, zanabazar-square, tagbanwa, dogra, avestan, brahmi, batak, buginese, lepcha, limbu, gurmukhi, thaana, khojki, tai-tham, sinhala, lao, sundanese, nko, tamil, masaram-gondi, hanunoo, bengali, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: siddham, gujarati, kaithi, syriac, devanagari, syloti-nagri, mahajani, mongolian, pahawh-hmong, phags-pa, takri, hebrew, thai, psalter-pahlavi, tagalog, new-tai-lue, khmer, tifinagh, saurashtra, cham, duployan, tai-le, chakma, hanifi-rohingya, kannada, bhaiksuki, kharoshthi, malayalam, tai-viet, tibetan, arabic, javanese, manichaean, modi, sogdian, yi, kayah-li, newa, oriya, buhid, telugu, meetei-mayek, tirhuta, grantha, sharada, gunjala-gondi, warang-citi, balinese, mandaic, khudawadi, rejang, zanabazar-square, tagbanwa, dogra, avestan, brahmi, batak, buginese, lepcha, limbu, gurmukhi, thaana, khojki, tai-tham, sinhala, lao, sundanese, old-hungarian, nko, tamil, masaram-gondi, hanunoo, bengali, myanmar</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, phags-pa, thaana, hebrew, arabic, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, thaana, hebrew, nko</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -219,7 +170,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: math, tai-tham, symbols, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, tai-tham, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -228,33 +179,33 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, math, balinese, khojki, thaana, khudawadi, soyombo, ahom, tagbanwa, wancho, miao, modi, kaithi, sundanese, gurmukhi, coptic, old-permic, saurashtra, malayalam, tirhuta, khmer, manichaean, limbu, symbols, phags-pa, thai, warang-citi, hebrew, armenian, nko, duployan, adlam, yi, tai-le, tifinagh, music, tibetan, canadian-aboriginal, mongolian, bassa-vah, sogdian, marchen, gujarati, takri, bengali, new-tai-lue, buhid, kayah-li, tamil, javanese, cham, caucasian-albanian, devanagari, kharoshthi, rejang, chakma, buginese, newa, mandaic, osage, sinhala, pahawh-hmong, psalter-pahlavi, tai-tham, tai-viet, hanunoo, telugu, sharada, hanifi-rohingya, bhaiksuki, batak, syloti-nagri, grantha, zanabazar-square, elbasan, lao, tagalog, lepcha, mahajani, gunjala-gondi, meetei-mayek, dogra, syriac, mende-kikakui, oriya, siddham, masaram-gondi, kannada, brahmi</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: japanese, yi, nushu, chinese-hongkong, chinese-traditional, phags-pa, chinese-simplified</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: syriac, mahajani, mongolian, phags-pa, bassa-vah, kannada, kharoshthi, malayalam, yi, modi, telugu, tirhuta, gunjala-gondi, adlam, mandaic, soyombo, brahmi, limbu, khojki, tai-tham, lao, myanmar, gujarati, pahawh-hmong, takri, marchen, tagalog, armenian, khmer, thai, tai-le, chakma, zanabazar-square, bhaiksuki, tibetan, manichaean, sogdian, meetei-mayek, grantha, sharada, old-permic, music, osage, dogra, batak, thaana, sundanese, symbols, masaram-gondi, bengali, kaithi, devanagari, syloti-nagri, psalter-pahlavi, new-tai-lue, saurashtra, hanifi-rohingya, javanese, kayah-li, newa, oriya, canadian-aboriginal, ahom, miao, elbasan, caucasian-albanian, tagbanwa, buginese, lepcha, wancho, nko, hanunoo, warang-citi, siddham, hebrew, tifinagh, mende-kikakui, cham, duployan, tai-viet, buhid, coptic, math, balinese, khudawadi, rejang, gurmukhi, sinhala, tamil</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: phags-pa, chinese-traditional, yi, japanese, nushu, chinese-simplified, chinese-hongkong</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0A FULLWIDTH ASTERISK: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, math, japanese, yi</li>
-<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, math, japanese, yi</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0A FULLWIDTH ASTERISK: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF1A FULLWIDTH COLON: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3F FULLWIDTH LOW LINE: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: yi, math, japanese, chinese-simplified</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: yi, math, japanese, chinese-simplified</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -342,28 +293,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EpundaSlab[wght].ttf</summary>
+<details><summary>[6] EpundaSlab[wght].ttf</summary>
 <div>
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Dcroat.001
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
     <div>
@@ -398,24 +329,24 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, duployan, todhri, math, canadian-aboriginal, malayalam, tai-le, tifinagh, hebrew, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, canadian-aboriginal, math, syriac, tai-le, todhri, malayalam, old-permic, hebrew, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, sunuwar, tifinagh, thai, cherokee, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, syriac, caucasian-albanian, sunuwar, cherokee, tifinagh, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -444,12 +375,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: myanmar, tai-tham, bengali, new-tai-lue, tai-viet, hanunoo, buhid, kayah-li, limbu, manichaean, telugu, phags-pa, tamil, thai, sharada, hanifi-rohingya, hebrew, javanese, nko, warang-citi, bhaiksuki, batak, cham, syloti-nagri, duployan, yi, devanagari, kharoshthi, rejang, grantha, balinese, khojki, thaana, khudawadi, tai-le, tifinagh, lao, psalter-pahlavi, zanabazar-square, chakma, buginese, tagalog, lepcha, mahajani, avestan, tagbanwa, tibetan, newa, arabic, gunjala-gondi, meetei-mayek, modi, kaithi, sundanese, dogra, gurmukhi, mandaic, mongolian, syriac, oriya, sogdian, hatran, sinhala, saurashtra, siddham, masaram-gondi, kannada, malayalam, pahawh-hmong, tirhuta, brahmi, khmer, gujarati, takri</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: myanmar, tai-tham, old-hungarian, bengali, new-tai-lue, tai-viet, hanunoo, buhid, kayah-li, limbu, manichaean, telugu, phags-pa, tamil, thai, sharada, hanifi-rohingya, hebrew, javanese, nko, warang-citi, bhaiksuki, batak, cham, syloti-nagri, duployan, yi, devanagari, kharoshthi, rejang, grantha, balinese, khojki, thaana, khudawadi, tai-le, tifinagh, lao, psalter-pahlavi, zanabazar-square, chakma, buginese, tagalog, lepcha, mahajani, avestan, tagbanwa, tibetan, newa, arabic, gunjala-gondi, meetei-mayek, modi, kaithi, sundanese, dogra, gurmukhi, mandaic, mongolian, syriac, oriya, sogdian, sinhala, saurashtra, siddham, masaram-gondi, kannada, malayalam, pahawh-hmong, tirhuta, brahmi, khmer, gujarati, takri</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, thaana, phags-pa, hebrew, nko, syriac</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, phags-pa, hebrew, nko, syriac</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: siddham, gujarati, kaithi, syriac, devanagari, syloti-nagri, mahajani, mongolian, pahawh-hmong, phags-pa, takri, hebrew, thai, psalter-pahlavi, tagalog, new-tai-lue, khmer, tifinagh, saurashtra, cham, duployan, tai-le, chakma, hanifi-rohingya, kannada, bhaiksuki, kharoshthi, malayalam, tai-viet, tibetan, arabic, javanese, manichaean, modi, sogdian, yi, hatran, kayah-li, newa, oriya, buhid, telugu, meetei-mayek, tirhuta, grantha, sharada, gunjala-gondi, warang-citi, balinese, mandaic, khudawadi, rejang, zanabazar-square, tagbanwa, dogra, avestan, brahmi, batak, buginese, lepcha, limbu, gurmukhi, thaana, khojki, tai-tham, sinhala, lao, sundanese, nko, tamil, masaram-gondi, hanunoo, bengali, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: siddham, gujarati, kaithi, syriac, devanagari, syloti-nagri, mahajani, mongolian, pahawh-hmong, phags-pa, takri, hebrew, thai, psalter-pahlavi, tagalog, new-tai-lue, khmer, tifinagh, saurashtra, cham, duployan, tai-le, chakma, hanifi-rohingya, kannada, bhaiksuki, kharoshthi, malayalam, tai-viet, tibetan, arabic, javanese, manichaean, modi, sogdian, yi, kayah-li, newa, oriya, buhid, telugu, meetei-mayek, tirhuta, grantha, sharada, gunjala-gondi, warang-citi, balinese, mandaic, khudawadi, rejang, zanabazar-square, tagbanwa, dogra, avestan, brahmi, batak, buginese, lepcha, limbu, gurmukhi, thaana, khojki, tai-tham, sinhala, lao, sundanese, old-hungarian, nko, tamil, masaram-gondi, hanunoo, bengali, myanmar</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, phags-pa, thaana, hebrew, arabic, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, thaana, hebrew, nko</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -485,7 +416,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: math, tai-tham, symbols, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, tai-tham, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -494,33 +425,33 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, math, balinese, khojki, thaana, khudawadi, soyombo, ahom, tagbanwa, wancho, miao, modi, kaithi, sundanese, gurmukhi, coptic, old-permic, saurashtra, malayalam, tirhuta, khmer, manichaean, limbu, symbols, phags-pa, thai, warang-citi, hebrew, armenian, nko, duployan, adlam, yi, tai-le, tifinagh, music, tibetan, canadian-aboriginal, mongolian, bassa-vah, sogdian, marchen, gujarati, takri, bengali, new-tai-lue, buhid, kayah-li, tamil, javanese, cham, caucasian-albanian, devanagari, kharoshthi, rejang, chakma, buginese, newa, mandaic, osage, sinhala, pahawh-hmong, psalter-pahlavi, tai-tham, tai-viet, hanunoo, telugu, sharada, hanifi-rohingya, bhaiksuki, batak, syloti-nagri, grantha, zanabazar-square, elbasan, lao, tagalog, lepcha, mahajani, gunjala-gondi, meetei-mayek, dogra, syriac, mende-kikakui, oriya, siddham, masaram-gondi, kannada, brahmi</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: japanese, yi, nushu, chinese-hongkong, chinese-traditional, phags-pa, chinese-simplified</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: syriac, mahajani, mongolian, phags-pa, bassa-vah, kannada, kharoshthi, malayalam, yi, modi, telugu, tirhuta, gunjala-gondi, adlam, mandaic, soyombo, brahmi, limbu, khojki, tai-tham, lao, myanmar, gujarati, pahawh-hmong, takri, marchen, tagalog, armenian, khmer, thai, tai-le, chakma, zanabazar-square, bhaiksuki, tibetan, manichaean, sogdian, meetei-mayek, grantha, sharada, old-permic, music, osage, dogra, batak, thaana, sundanese, symbols, masaram-gondi, bengali, kaithi, devanagari, syloti-nagri, psalter-pahlavi, new-tai-lue, saurashtra, hanifi-rohingya, javanese, kayah-li, newa, oriya, canadian-aboriginal, ahom, miao, elbasan, caucasian-albanian, tagbanwa, buginese, lepcha, wancho, nko, hanunoo, warang-citi, siddham, hebrew, tifinagh, mende-kikakui, cham, duployan, tai-viet, buhid, coptic, math, balinese, khudawadi, rejang, gurmukhi, sinhala, tamil</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: phags-pa, chinese-traditional, yi, japanese, nushu, chinese-simplified, chinese-hongkong</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0A FULLWIDTH ASTERISK: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, math, japanese, yi</li>
-<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, math, japanese, yi</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0A FULLWIDTH ASTERISK: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF1A FULLWIDTH COLON: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3F FULLWIDTH LOW LINE: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: yi, math, japanese, chinese-simplified</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: yi, math, japanese, chinese-simplified</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -615,8 +546,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 1 | 15 | 185 | 15 | 268 | 0 | 
-| 0% | 0% | 0% | 3% | 38% | 3% | 55% | 0% | 
+| 0 | 0 | 1 | 12 | 185 | 15 | 271 | 0 | 
+| 0% | 0% | 0% | 2% | 38% | 3% | 56% | 0% | 
 
 
 
