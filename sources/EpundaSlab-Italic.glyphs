@@ -16127,7 +16127,6 @@ unicode = 314;
 },
 {
 glyphname = lcaron;
-lastChange = "2024-12-24 15:40:56 +0000";
 layers = (
 {
 layerId = m003;
@@ -16136,8 +16135,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (-1,200);
-ref = caroncomb;
+pos = (217,0);
+ref = caroncomb.alt;
 }
 );
 width = 220;
@@ -16149,8 +16148,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (24,200);
-ref = caroncomb;
+pos = (287,0);
+ref = caroncomb.alt;
 }
 );
 width = 340;
