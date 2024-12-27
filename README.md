@@ -27,7 +27,8 @@ Epundas Sans is a variable font with a weight axis that ranges from Light (300) 
 
 ## About
 
-Description of you and/or organisation goes here.
+typofactur is a German type foundry run by the graphic designer Simon Atzbach.
+Find out more at https://typofactur.de
 
 ## Building
 
@@ -43,13 +44,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
-
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+**25 December 2024. Version 1.002**
+- initial commit
+- analog to Epunda Sans
 
 ## License
 
