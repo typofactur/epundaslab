@@ -47,6 +47,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **25 December 2024. Version 1.002**
 - initial commit
 - analog to Epunda Sans
+- including Italic
+
 
 ## License
 
