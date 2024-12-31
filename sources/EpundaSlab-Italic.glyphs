@@ -8,7 +8,8 @@ DisplayStrings = (
 $,
 "/caroncomb.alt dď",
 "LĽlľtť",
-"Ľlľť"
+"Ľlľť",
+"/caroncomb.alt"
 );
 axes = (
 {
@@ -5201,6 +5202,7 @@ shapes = (
 ref = L;
 },
 {
+pos = (477,-43);
 ref = caroncomb.alt;
 }
 );
@@ -12804,6 +12806,7 @@ shapes = (
 ref = d;
 },
 {
+pos = (521,0);
 ref = caroncomb.alt;
 }
 );
@@ -16828,6 +16831,7 @@ shapes = (
 ref = l;
 },
 {
+pos = (267,0);
 ref = caroncomb.alt;
 }
 );
@@ -20344,6 +20348,7 @@ shapes = (
 ref = t;
 },
 {
+pos = (326,0);
 ref = caroncomb.alt;
 }
 );
@@ -50632,7 +50637,7 @@ R = NoKerning;
 },
 {
 glyphname = caroncomb.alt;
-lastChange = "2024-12-31 21:02:51 +0000";
+lastChange = "2024-12-31 21:14:21 +0000";
 layers = (
 {
 anchors = (
@@ -50668,6 +50673,12 @@ nodes = (
 width = 204;
 },
 {
+anchors = (
+{
+name = _topright;
+pos = (100,700);
+}
+);
 layerId = m004;
 shapes = (
 {
