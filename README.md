@@ -49,6 +49,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - analog to Epunda Sans
 - including Italic
 
+**31 December 2024. Version 1.100**
+- kerning with kern on
+
 
 ## License
 
