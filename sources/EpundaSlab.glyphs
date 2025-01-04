@@ -2,16 +2,7 @@
 .appVersion = "3337";
 .formatVersion = 3;
 DisplayStrings = (
-"[",
-"]",
-"!",
-"¡",
-"«",
-"»",
-"‹",
-"›",
-"ﬂflfi",
-"ﬁ"
+"»"
 );
 axes = (
 {
@@ -45208,7 +45199,7 @@ R = quotes;
 glyphname = guillemotright;
 kernLeft = KO_guillemotright;
 kernRight = KO_guillemotright;
-lastChange = "2025-01-04 18:39:11 +0000";
+lastChange = "2025-01-04 18:57:13 +0000";
 layers = (
 {
 hints = (
@@ -45278,23 +45269,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(621,250,l),
-(373,500,l),
-(302,450,l),
-(451,250,l),
-(302,50,l),
-(373,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (391,250,l),
 (143,500,l),
 (72,450,l),
 (221,250,l),
 (72,50,l),
 (143,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(621,250,l),
+(373,500,l),
+(302,450,l),
+(451,250,l),
+(302,50,l),
+(373,0,l)
 );
 }
 );

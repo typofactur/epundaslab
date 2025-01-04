@@ -61,6 +61,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - path direction brackets, exclams, guillemots
 - kerning f+i, f+l
 - caret position ligatures fi and fl
+- contour order guillemotright
 
 
 ## License
