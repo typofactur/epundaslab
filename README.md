@@ -52,6 +52,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **31 December 2024. Version 1.100**
 - kerning with kern on
 
+**04 January 2024. Version 1.101**
+- contour order colon
+
 
 ## License
 
