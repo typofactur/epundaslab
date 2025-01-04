@@ -54,6 +54,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 **04 January 2024. Version 1.101**
 - contour order colon
+- width math signs
 
 
 ## License
