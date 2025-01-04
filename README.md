@@ -56,6 +56,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - contour order colon
 - width math signs
 - no softhyphen
+- dcroat
+- serifs not exported
 
 
 ## License

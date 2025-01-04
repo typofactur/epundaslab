@@ -4,7 +4,10 @@
 DisplayStrings = (
 ":",
 ";",
-"−÷±≈"
+"−÷±≈",
+"Đ",
+"dđ",
+"/dcroat.001"
 );
 axes = (
 {
@@ -10090,111 +10093,6 @@ metricRight = "=|";
 unicode = 42891;
 },
 {
-glyphname = Dcroat.001;
-lastChange = "2022-11-26 12:52:18 +0000";
-layers = (
-{
-layerId = m003;
-shapes = (
-{
-closed = 1;
-nodes = (
-(224,0,l),
-(429,0,o),
-(547,156,o),
-(586,336,cs),
-(624,516,o),
-(573,676,o),
-(358,676,c),
-(253,676,o),
-(171,667,o),
-(171,667,c),
-(29,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(292,320,l),
-(305,380,l),
-(28,380,l),
-(15,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(222,612,l),
-(222,612,o),
-(270,616,o),
-(345,616,cs),
-(510,616,o),
-(547,493,o),
-(514,336,cs),
-(480,179,o),
-(392,60,o),
-(237,60,cs),
-(177,60,o),
-(105,60,o),
-(105,60,c)
-);
-}
-);
-width = 613;
-},
-{
-layerId = m004;
-shapes = (
-{
-closed = 1;
-nodes = (
-(227,0,l),
-(472,0,o),
-(590,156,o),
-(628,336,cs),
-(667,516,o),
-(616,676,o),
-(361,676,c),
-(216,676,o),
-(134,667,o),
-(134,667,c),
-(-8,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(364,290,l),
-(389,410,l),
-(34,410,l),
-(9,290,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(303,555,l),
-(303,555,o),
-(310,556,o),
-(335,556,cs),
-(420,556,o),
-(470,493,o),
-(436,336,cs),
-(403,179,o),
-(327,120,o),
-(252,120,cs),
-(242,120,o),
-(210,120,o),
-(210,120,c)
-);
-}
-);
-width = 625;
-}
-);
-metricRight = "=D";
-},
-{
 glyphname = Eth.001;
 lastChange = "2022-11-26 12:52:18 +0000";
 layers = (
@@ -12580,7 +12478,7 @@ unicode = 267;
 glyphname = d;
 kernLeft = KO_o;
 kernRight = KO_i;
-lastChange = "2022-11-28 23:43:40 +0000";
+lastChange = "2025-01-04 18:29:40 +0000";
 layers = (
 {
 anchors = (
@@ -12590,7 +12488,7 @@ pos = (190,0);
 },
 {
 name = center;
-pos = (243,250);
+pos = (426,577);
 },
 {
 name = top;
@@ -12685,7 +12583,7 @@ pos = (230,0);
 },
 {
 name = center;
-pos = (465,600);
+pos = (451,580);
 },
 {
 name = top;
@@ -12849,7 +12747,7 @@ unicode = 7699;
 glyphname = dcroat;
 kernLeft = KO_o;
 kernRight = KO_i;
-lastChange = "2022-11-28 23:58:02 +0000";
+lastChange = "2025-01-04 18:29:40 +0000";
 layers = (
 {
 layerId = m003;
@@ -12858,7 +12756,7 @@ shapes = (
 ref = d;
 },
 {
-pos = (58,0);
+pos = (241,327);
 ref = strokeshortcomb;
 }
 );
@@ -12871,7 +12769,7 @@ shapes = (
 ref = d;
 },
 {
-pos = (265,350);
+pos = (251,330);
 ref = strokeshortcomb;
 }
 );
@@ -52432,22 +52330,9 @@ metricRight = "=i";
 unicode = 712;
 },
 {
-glyphname = unbenannt;
-lastChange = "2022-11-28 19:15:49 +0000";
-layers = (
-{
-layerId = m004;
-width = 600;
-},
-{
-layerId = m003;
-width = 600;
-}
-);
-},
-{
+export = 0;
 glyphname = _serif.Spur;
-lastChange = "2023-01-02 16:10:00 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52482,8 +52367,9 @@ width = 225;
 );
 },
 {
+export = 0;
 glyphname = _serif.C.BR;
-lastChange = "2022-11-28 20:27:54 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52518,8 +52404,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.C.TR;
-lastChange = "2022-11-28 23:52:27 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52554,8 +52441,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.E.TR;
-lastChange = "2022-11-28 19:37:51 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52590,8 +52478,9 @@ width = 100;
 );
 },
 {
+export = 0;
 glyphname = _serif.I.BL;
-lastChange = "2023-01-02 16:10:37 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52626,8 +52515,9 @@ width = 110;
 );
 },
 {
+export = 0;
 glyphname = _serif.I.BR;
-lastChange = "2023-01-02 16:18:04 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52662,8 +52552,9 @@ width = 170;
 );
 },
 {
+export = 0;
 glyphname = _serif.I.TL;
-lastChange = "2022-11-28 23:29:37 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52698,8 +52589,9 @@ width = 110;
 );
 },
 {
+export = 0;
 glyphname = _serif.I.TR;
-lastChange = "2023-01-02 16:14:38 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52734,8 +52626,9 @@ width = 110;
 );
 },
 {
+export = 0;
 glyphname = _serif.S.BL;
-lastChange = "2022-11-28 20:00:59 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52770,8 +52663,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.S.BR;
-lastChange = "2022-11-28 19:50:18 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52806,8 +52700,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.T.TL;
-lastChange = "2022-11-28 20:05:52 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52842,8 +52737,9 @@ width = 100;
 );
 },
 {
+export = 0;
 glyphname = _serif.T.TR;
-lastChange = "2022-11-28 19:58:41 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52878,8 +52774,9 @@ width = 100;
 );
 },
 {
+export = 0;
 glyphname = _serif.Z.BR;
-lastChange = "2022-11-28 20:05:13 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52914,8 +52811,9 @@ width = 100;
 );
 },
 {
+export = 0;
 glyphname = _serif.a.TL;
-lastChange = "2022-11-29 00:37:58 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52950,8 +52848,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.r.TR;
-lastChange = "2022-11-28 19:53:51 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -52986,8 +52885,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.s.BL;
-lastChange = "2022-11-28 20:24:44 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -53022,8 +52922,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.s.BR;
-lastChange = "2022-11-28 20:24:04 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
@@ -53058,8 +52959,9 @@ width = 200;
 );
 },
 {
+export = 0;
 glyphname = _serif.s.TR;
-lastChange = "2022-11-28 23:54:09 +0000";
+lastChange = "2025-01-04 18:32:29 +0000";
 layers = (
 {
 layerId = m003;
