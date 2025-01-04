@@ -58,6 +58,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - no softhyphen
 - dcroat
 - serifs not exported
+- path direction brackets, exclams, guillemots
 
 
 ## License
