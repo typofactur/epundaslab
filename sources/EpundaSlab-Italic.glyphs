@@ -9,7 +9,10 @@ DisplayStrings = (
 "«",
 "»",
 "‹",
-"›"
+"›",
+"！",
+"ﬁ",
+"ﬂflfi"
 );
 axes = (
 {
@@ -15528,7 +15531,7 @@ unicode = 7830;
 glyphname = i;
 kernLeft = KO_i;
 kernRight = KO_i;
-lastChange = "2024-12-31 19:44:25 +0000";
+lastChange = "2025-01-04 18:48:24 +0000";
 layers = (
 {
 layerId = m003;
@@ -16567,7 +16570,7 @@ unicode = 7733;
 glyphname = l;
 kernLeft = KO_l;
 kernRight = KO_i;
-lastChange = "2024-12-31 21:04:16 +0000";
+lastChange = "2025-01-04 18:46:34 +0000";
 layers = (
 {
 anchors = (
@@ -26218,9 +26221,15 @@ width = 350;
 glyphname = fi;
 kernLeft = KO_f;
 kernRight = KO_u;
-lastChange = "2022-11-29 00:27:51 +0000";
+lastChange = "2025-01-04 18:41:59 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (269,0);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -26290,6 +26299,12 @@ ref = _serif.r.TR;
 width = 538;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (345,0);
+}
+);
 layerId = m004;
 shapes = (
 {
@@ -26368,25 +26383,13 @@ unicode = 64257;
 glyphname = fl;
 kernLeft = KO_f;
 kernRight = KO_i;
-lastChange = "2022-11-28 16:10:25 +0000";
+lastChange = "2025-01-04 18:42:11 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (376,0);
-},
-{
-name = center;
-pos = (450,350);
-},
-{
-name = top;
-pos = (525,700);
-},
-{
-name = topright;
-pos = (620,700);
+name = caret_1;
+pos = (266.5,0);
 }
 );
 layerId = m003;
@@ -26452,20 +26455,8 @@ width = 533;
 {
 anchors = (
 {
-name = bottom;
-pos = (473,0);
-},
-{
-name = center;
-pos = (547,350);
-},
-{
-name = top;
-pos = (622,700);
-},
-{
-name = topright;
-pos = (727,700);
+name = caret_1;
+pos = (345.5,0);
 }
 );
 layerId = m004;
@@ -57108,9 +57099,11 @@ m003 = {
 "@MMK_R_KO_guillemotleft" = -107;
 "@MMK_R_KO_guillemotright" = -68;
 "@MMK_R_KO_hyphen" = -128;
+"@MMK_R_KO_i" = 1;
 "@MMK_R_KO_iacute" = -10;
 "@MMK_R_KO_icircumflex" = 0;
 "@MMK_R_KO_idotless" = -27;
+"@MMK_R_KO_l" = 30;
 "@MMK_R_KO_less" = -81;
 "@MMK_R_KO_n" = 0;
 "@MMK_R_KO_nine" = -16;
@@ -69113,9 +69106,11 @@ m004 = {
 "@MMK_R_KO_guillemotleft" = -124;
 "@MMK_R_KO_guillemotright" = -66;
 "@MMK_R_KO_hyphen" = -37;
+"@MMK_R_KO_i" = 10;
 "@MMK_R_KO_iacute" = 21;
 "@MMK_R_KO_icircumflex" = 25;
 "@MMK_R_KO_idotless" = -22;
+"@MMK_R_KO_l" = 90;
 "@MMK_R_KO_less" = -61;
 "@MMK_R_KO_n" = -10;
 "@MMK_R_KO_nine" = -4;
