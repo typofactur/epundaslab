@@ -43362,39 +43362,6 @@ R = hyphen;
 };
 },
 {
-glyphname = softhyphen;
-kernLeft = KO_hyphen;
-kernRight = KO_softhyphen;
-lastChange = "2024-12-31 18:54:04 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 450;
-},
-{
-layerId = m002;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 456;
-}
-);
-unicode = 173;
-userData = {
-KernOnSpecialSpacing = {
-L = hyphen;
-R = hyphen;
-};
-};
-},
-{
 glyphname = endash;
 kernLeft = KO_endash;
 kernRight = KO_endash;
@@ -64103,7 +64070,6 @@ quoteleft = -117;
 quoteright = -74;
 quotesingle = -60;
 registered = -100;
-softhyphen = -49;
 };
 Oslash = {
 B = 33;
@@ -64234,7 +64200,6 @@ o = -62;
 oslash = -90;
 period = -105;
 slash = -99;
-softhyphen = -117;
 };
 Tcedilla = {
 abreve = -31;
@@ -64521,7 +64486,6 @@ parenright = -112;
 period = -105;
 semicolon = -67;
 slash = -119;
-softhyphen = -205;
 three.lf = -65;
 two = -45;
 two.lf = -87;
@@ -64894,7 +64858,6 @@ quotedblleft = -76;
 quoteleft = -76;
 s = -11;
 slash = -47;
-softhyphen = -43;
 };
 etilde = {
 T = -38;
@@ -64954,13 +64917,11 @@ e = -15;
 hyphen = -89;
 schwa = -19;
 slash = -29;
-softhyphen = -89;
 u = -20;
 };
 ezhcaron = {
 hyphen = -89;
 quoteright = -91;
-softhyphen = -89;
 };
 f = {
 e.salt = -47;
@@ -65140,7 +65101,6 @@ quoteleft = -93;
 quoteright = -79;
 quotesingle = -61;
 s = -12;
-softhyphen = -51;
 t = -26;
 u = -24;
 v = -26;
@@ -65407,7 +65367,6 @@ parenright = -28;
 period = -45;
 quotedblright = -65;
 quotesingle = -50;
-softhyphen = -81;
 w = 0;
 y = 0;
 };
@@ -65664,7 +65623,6 @@ parenright = -61;
 period = -105;
 semicolon = -115;
 slash = -115;
-softhyphen = -115;
 };
 oslash = {
 b = -20;
@@ -65694,7 +65652,6 @@ quotedblleft = -149;
 quoteleft = -117;
 s = -29;
 slash = -72;
-softhyphen = -65;
 };
 oslashacute = {
 oslash = -44;
@@ -65800,7 +65757,6 @@ semicolon = -43;
 sevensuperior = -33;
 sixsuperior = 0;
 slash = -34;
-softhyphen = -36;
 threesuperior = -18;
 twosuperior = -17;
 };
@@ -65859,7 +65815,6 @@ quoteright = -70;
 quotesingle = -63;
 registered = -112;
 slash = -52;
-softhyphen = -125;
 threesuperior = -64;
 twosuperior = -79;
 };
@@ -65954,7 +65909,6 @@ quotesingle = -13;
 s = -67;
 semicolon = -86;
 slash = -112;
-softhyphen = -156;
 };
 quotedbl = {
 A = -127;
@@ -66144,7 +66098,6 @@ questiondown = -75;
 schwa = -75;
 semicolon = -75;
 slash = -75;
-softhyphen = -75;
 x = -40;
 };
 r = {
@@ -66197,7 +66150,6 @@ quoteright = -110;
 quotesingle = -75;
 semicolon = -123;
 slash = -160;
-softhyphen = -216;
 trademark = -80;
 };
 ruble = {
@@ -66237,7 +66189,6 @@ i = -25;
 l = -37;
 o = -47;
 period = -100;
-softhyphen = -100;
 };
 scaron = {
 parenright = -61;
@@ -66278,7 +66229,6 @@ quotedblleft = -123;
 quotedblright = -123;
 quoteright = -117;
 quotesingle = -75;
-softhyphen = -123;
 };
 seven = {
 asciitilde = -122;
@@ -66397,36 +66347,6 @@ underscore = -160;
 verticallinemod = -30;
 x = -39;
 };
-softhyphen = {
-AE = -162;
-Dcroat = -92;
-Ezh = -174;
-Hbar = -118;
-J.salt = -165;
-Lslash = -77;
-Omega = -99;
-Oslash = -99;
-Schwa = -99;
-ae = -108;
-braceleft = -123;
-dollar = -157;
-eightsuperior = -103;
-fivesuperior = -89;
-four.numr = -144;
-foursuperior = -144;
-jcircumflex = -105;
-ninesuperior = -122;
-onesuperior = -97;
-oslash = -113;
-questiondown = -202;
-quotedblbase = -187;
-radical = -164;
-sevensuperior = -122;
-sixsuperior = -107;
-threesuperior = -89;
-twosuperior = -89;
-x = -169;
-};
 sterling = {
 five = -31;
 five.osf = -31;
@@ -66461,7 +66381,6 @@ guilsinglleft = -57;
 };
 tdieresis = {
 hyphen = -115;
-softhyphen = -115;
 };
 three = {
 equal = -63;
@@ -66541,7 +66460,6 @@ parenright = -45;
 period = -105;
 semicolon = -52;
 slash = -57;
-softhyphen = -41;
 };
 u = {
 Saltillo = -40;
@@ -76028,7 +75946,6 @@ quoteleft = -74;
 quoteright = -31;
 quotesingle = -53;
 registered = -111;
-softhyphen = -41;
 };
 Oslash = {
 B = 0;
@@ -76159,7 +76076,6 @@ o = -71;
 oslash = -76;
 period = -101;
 slash = -114;
-softhyphen = -105;
 };
 Tcedilla = {
 abreve = -59;
@@ -76446,7 +76362,6 @@ parenright = -111;
 period = -125;
 semicolon = -46;
 slash = -140;
-softhyphen = -205;
 three.lf = -59;
 two = -38;
 two.lf = -69;
@@ -76819,7 +76734,6 @@ quotedblleft = -91;
 quoteleft = -91;
 s = 0;
 slash = -81;
-softhyphen = -38;
 };
 etilde = {
 T = -18;
@@ -76879,13 +76793,11 @@ e = -25;
 hyphen = -90;
 schwa = -29;
 slash = -48;
-softhyphen = -90;
 u = -32;
 };
 ezhcaron = {
 hyphen = -90;
 quoteright = -84;
-softhyphen = -90;
 };
 f = {
 e.salt = -11;
@@ -77065,7 +76977,6 @@ quoteleft = -73;
 quoteright = -84;
 quotesingle = -62;
 s = -8;
-softhyphen = -48;
 t = -35;
 u = -36;
 v = -31;
@@ -77332,7 +77243,6 @@ parenright = -35;
 period = -20;
 quotedblright = -15;
 quotesingle = -28;
-softhyphen = -76;
 w = 17;
 y = 14;
 };
@@ -77589,7 +77499,6 @@ parenright = -73;
 period = -101;
 semicolon = -101;
 slash = -101;
-softhyphen = -101;
 };
 oslash = {
 b = -9;
@@ -77619,7 +77528,6 @@ quotedblleft = -87;
 quoteleft = -87;
 s = 0;
 slash = -89;
-softhyphen = -47;
 };
 oslashacute = {
 oslash = -12;
@@ -77725,7 +77633,6 @@ semicolon = -30;
 sevensuperior = -98;
 sixsuperior = -117;
 slash = -79;
-softhyphen = -43;
 threesuperior = -95;
 twosuperior = -86;
 };
@@ -77784,7 +77691,6 @@ quoteright = -73;
 quotesingle = -64;
 registered = -118;
 slash = -76;
-softhyphen = -109;
 threesuperior = -45;
 twosuperior = -44;
 };
@@ -77879,7 +77785,6 @@ quotesingle = -25;
 s = -59;
 semicolon = -47;
 slash = -122;
-softhyphen = -156;
 };
 quotedbl = {
 A = -129;
@@ -78069,7 +77974,6 @@ questiondown = -95;
 schwa = -69;
 semicolon = -66;
 slash = -95;
-softhyphen = -95;
 x = -34;
 };
 r = {
@@ -78122,7 +78026,6 @@ quoteright = -115;
 quotesingle = -95;
 semicolon = -119;
 slash = -189;
-softhyphen = -207;
 trademark = -86;
 };
 ruble = {
@@ -78162,7 +78065,6 @@ i = -36;
 l = -74;
 o = -59;
 period = -125;
-softhyphen = -125;
 };
 scaron = {
 parenright = -53;
@@ -78203,7 +78105,6 @@ quotedblleft = -104;
 quotedblright = -48;
 quoteright = -48;
 quotesingle = -66;
-softhyphen = -92;
 };
 seven = {
 asciitilde = -90;
@@ -78322,36 +78223,6 @@ underscore = -161;
 verticallinemod = -35;
 x = -63;
 };
-softhyphen = {
-AE = -117;
-Dcroat = -34;
-Ezh = -91;
-Hbar = -58;
-J.salt = -90;
-Lslash = 0;
-Omega = -41;
-Oslash = -49;
-Schwa = -41;
-ae = -50;
-braceleft = -68;
-dollar = -88;
-eightsuperior = -176;
-fivesuperior = -176;
-four.numr = -123;
-foursuperior = -176;
-jcircumflex = -44;
-ninesuperior = -176;
-onesuperior = -184;
-oslash = -47;
-questiondown = -152;
-quotedblbase = -103;
-radical = -134;
-sevensuperior = -173;
-sixsuperior = -175;
-threesuperior = -178;
-twosuperior = -164;
-x = -106;
-};
 sterling = {
 five = -14;
 five.osf = -14;
@@ -78386,7 +78257,6 @@ guilsinglleft = -81;
 };
 tdieresis = {
 hyphen = -107;
-softhyphen = -107;
 };
 three = {
 equal = -41;
@@ -78466,7 +78336,6 @@ parenright = -35;
 period = -125;
 semicolon = -35;
 slash = -119;
-softhyphen = -164;
 };
 u = {
 Saltillo = -58;
@@ -78732,5 +78601,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.33";
 };
 versionMajor = 1;
-versionMinor = 100;
+versionMinor = 101;
 }
