@@ -10,45 +10,8 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[12] EpundaSlab-Italic[wght].ttf</summary>
+<details><summary>[6] EpundaSlab[wght].ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-* 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
-<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
- [code: instance-too-long]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -60,108 +23,9 @@ fontbakery version: 0.12.10
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour order differs in glyph 'colon': [0, 1] in wght=300, [1, 0] in wght=900.
+<pre><code>- Contour order differs in glyph 'guillemotright': [0, 1] in wght=300, [1, 0] in wght=900.
 </code></pre>
  [code: interpolation-issues]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The most common width is 600 among a set of 9 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 601:
-minus, plusminus, divide</p>
-<p>Width = 558:
-approxequal</p>
- [code: width-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Dcroat.001
-
-- _serif.C.BR
-
-- _serif.C.TR
-
-- _serif.E.TR
-
-- _serif.I.BL
-
-- _serif.I.BR
-
-- _serif.I.TL
-
-- _serif.I.TR
-
-- _serif.S.BL
-
-- _serif.S.BR
-
-- _serif.Spur
-
-- _serif.T.TL
-
-- _serif.T.TR
-
-- _serif.Z.BR
-
-- _serif.a.TL
-
-- _serif.r.TR
-
-- _serif.s.BL
-
-- _serif.s.BR
-
-- _serif.s.TR
-
-- unbenannt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -205,21 +69,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, math, duployan, canadian-aboriginal, syriac, hebrew, old-permic, coptic, todhri, malayalam</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, syriac, malayalam, coptic, tai-le, old-permic, tifinagh, duployan, todhri, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, cherokee, caucasian-albanian, syriac, sunuwar, thai</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, sunuwar, tifinagh, cherokee, thai, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -248,10 +112,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, meetei-mayek, batak, tagalog, tibetan, zanabazar-square, modi, javanese, oriya, syriac, hebrew, buginese, buhid, gurmukhi, phags-pa, syloti-nagri, kaithi, brahmi, tirhuta, masaram-gondi, psalter-pahlavi, tifinagh, khmer, gujarati, new-tai-lue, myanmar, tagbanwa, saurashtra, kharoshthi, warang-citi, khojki, dogra, khudawadi, newa, hatran, gunjala-gondi, limbu, malayalam, tai-tham, tai-viet, sundanese, mandaic, lepcha, takri, duployan, sinhala, tamil, grantha, hanifi-rohingya, rejang, devanagari, mongolian, arabic, cham, nko, tai-le, yi, sharada, hanunoo, chakma, kayah-li, telugu, pahawh-hmong, lao, bhaiksuki, mahajani, sogdian, manichaean, thaana, thai, siddham, balinese, bengali, kannada</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, meetei-mayek, batak, tagalog, tibetan, zanabazar-square, modi, javanese, oriya, syriac, hebrew, buginese, buhid, gurmukhi, phags-pa, syloti-nagri, kaithi, brahmi, old-hungarian, tirhuta, masaram-gondi, psalter-pahlavi, tifinagh, khmer, gujarati, new-tai-lue, myanmar, tagbanwa, saurashtra, kharoshthi, warang-citi, khojki, dogra, khudawadi, newa, gunjala-gondi, limbu, malayalam, tai-tham, tai-viet, sundanese, mandaic, lepcha, takri, duployan, sinhala, tamil, grantha, hanifi-rohingya, rejang, devanagari, mongolian, arabic, cham, nko, tai-le, yi, sharada, hanunoo, chakma, kayah-li, telugu, pahawh-hmong, lao, bhaiksuki, mahajani, sogdian, manichaean, thaana, thai, siddham, balinese, bengali, kannada</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, hebrew, phags-pa, thaana, arabic</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, hebrew, thaana, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: hebrew, grantha, zanabazar-square, syriac, sogdian, malayalam, kannada, batak, cham, masaram-gondi, saurashtra, warang-citi, rejang, khojki, limbu, duployan, oriya, nko, brahmi, syloti-nagri, hatran, buginese, manichaean, kharoshthi, yi, avestan, lao, tai-le, tai-viet, dogra, chakma, myanmar, lepcha, meetei-mayek, bengali, tamil, takri, sharada, bhaiksuki, gunjala-gondi, tagalog, mahajani, siddham, kayah-li, mandaic, sinhala, sundanese, buhid, pahawh-hmong, tai-tham, arabic, mongolian, balinese, thaana, devanagari, phags-pa, new-tai-lue, psalter-pahlavi, telugu, thai, hanifi-rohingya, newa, gujarati, tagbanwa, gurmukhi, modi, khudawadi, khmer, kaithi, tifinagh, tibetan, javanese, hanunoo, tirhuta</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: hebrew, grantha, zanabazar-square, syriac, sogdian, malayalam, kannada, batak, cham, masaram-gondi, saurashtra, warang-citi, rejang, khojki, limbu, duployan, old-hungarian, oriya, nko, brahmi, syloti-nagri, manichaean, buginese, kharoshthi, yi, avestan, lao, tai-le, tai-viet, dogra, chakma, myanmar, lepcha, meetei-mayek, bengali, tamil, takri, sharada, bhaiksuki, gunjala-gondi, tagalog, mahajani, siddham, kayah-li, mandaic, sinhala, sundanese, buhid, pahawh-hmong, tai-tham, arabic, mongolian, balinese, thaana, devanagari, phags-pa, new-tai-lue, psalter-pahlavi, telugu, thai, hanifi-rohingya, newa, gujarati, tagbanwa, gurmukhi, modi, khudawadi, khmer, kaithi, tifinagh, tibetan, javanese, hanunoo, tirhuta</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: hebrew, syriac, arabic, thaana, phags-pa, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: hebrew, syriac, thaana, phags-pa, nko</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
@@ -289,7 +153,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, tai-tham, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, tai-tham, symbols, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -298,8 +162,8 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, buhid, soyombo, marchen, masaram-gondi, tifinagh, gujarati, myanmar, warang-citi, khojki, ahom, tai-tham, malayalam, wancho, duployan, tamil, rejang, mongolian, nko, sharada, bhaiksuki, coptic, thai, siddham, kannada, zanabazar-square, modi, syriac, elbasan, gurmukhi, syloti-nagri, tirhuta, armenian, adlam, khmer, tagbanwa, saurashtra, old-permic, tai-viet, mandaic, music, tai-le, hanunoo, kayah-li, thaana, sogdian, math, meetei-mayek, tibetan, miao, javanese, mende-kikakui, oriya, buginese, phags-pa, kaithi, brahmi, dogra, limbu, takri, sinhala, hanifi-rohingya, devanagari, yi, tagalog, balinese, batak, canadian-aboriginal, hebrew, psalter-pahlavi, new-tai-lue, kharoshthi, osage, khudawadi, newa, symbols, gunjala-gondi, sundanese, caucasian-albanian, grantha, cham, chakma, telugu, pahawh-hmong, lao, mahajani, manichaean, bengali, lepcha</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: yi, chinese-traditional, chinese-simplified, phags-pa, japanese, nushu, chinese-hongkong</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: coptic, batak, warang-citi, oriya, bengali, wancho, bhaiksuki, siddham, mandaic, buhid, devanagari, new-tai-lue, gujarati, tibetan, thai, syriac, cham, marchen, mende-kikakui, rejang, duployan, brahmi, syloti-nagri, tai-le, tai-viet, lepcha, armenian, takri, sundanese, pahawh-hmong, telugu, tifinagh, hanunoo, hebrew, grantha, zanabazar-square, sogdian, malayalam, osage, masaram-gondi, saurashtra, manichaean, buginese, yi, dogra, chakma, sharada, miao, tagalog, mahajani, kayah-li, sinhala, soyombo, tai-tham, old-permic, phags-pa, psalter-pahlavi, elbasan, newa, gurmukhi, canadian-aboriginal, adlam, ahom, kaithi, kannada, khojki, limbu, nko, kharoshthi, music, lao, myanmar, meetei-mayek, tamil, gunjala-gondi, caucasian-albanian, mongolian, balinese, thaana, bassa-vah, hanifi-rohingya, tagbanwa, math, modi, khudawadi, symbols, khmer, javanese, tirhuta</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-traditional, nushu, yi, japanese, phags-pa, chinese-hongkong, chinese-simplified</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
@@ -335,50 +199,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
-<pre><code>* bracketleft (U+005B) has a counter-clockwise outer contour
-
-* bracketright (U+005D) has a counter-clockwise outer contour
-
-* exclam (U+0021) has a counter-clockwise outer contour
-
-* exclamdown (U+00A1) has a counter-clockwise outer contour
-
-* guillemotleft (U+00AB) has a counter-clockwise outer contour
-
-* guillemotleft (U+00AB) has a counter-clockwise outer contour
-
-* guillemotright (U+00BB) has a counter-clockwise outer contour
-
-* guillemotright (U+00BB) has a counter-clockwise outer contour
-
-* guilsinglleft (U+2039) has a counter-clockwise outer contour
-
-* guilsinglright (U+203A) has a counter-clockwise outer contour
-
-* uniFF01 (U+FF01) has a counter-clockwise outer contour
-
-* uniFF3B (U+FF3B) has a counter-clockwise outer contour
-
-* uniFF3D (U+FF3D) has a counter-clockwise outer contour
-</code></pre>
- [code: ccw-outer-contour]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
     <div>
 
@@ -394,24 +214,6 @@ definitions.</p>
 - f + l
 </code></pre>
  [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
 
 
 
@@ -456,10 +258,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EpundaSlab[wght].ttf</summary>
+<details><summary>[6] EpundaSlab-Italic[wght].ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
     <div>
 
 
@@ -468,86 +270,27 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour order differs in glyph 'colon': [0, 1] in wght=300, [1, 0] in wght=900.
-</code></pre>
- [code: interpolation-issues]
+* 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
+* 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light SemiBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 271 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
+* 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Dcroat.001
-
-- _serif.C.BR
-
-- _serif.C.TR
-
-- _serif.E.TR
-
-- _serif.I.BL
-
-- _serif.I.BR
-
-- _serif.I.TL
-
-- _serif.I.TR
-
-- _serif.S.BL
-
-- _serif.S.BR
-
-- _serif.Spur
-
-- _serif.T.TL
-
-- _serif.T.TR
-
-- _serif.Z.BR
-
-- _serif.a.TL
-
-- _serif.r.TR
-
-- _serif.s.BL
-
-- _serif.s.BR
-
-- _serif.s.TR
-
-- unbenannt
-</code></pre>
- [code: unreachable-glyphs]
+* 🔥 **FAIL** <p>Variable font instance name 'Epunda Slab Light ExtraBold Italic' formed by space-separated concatenation of font family name (nameID 1) and instance subfamily nameID 275 exceeds 32 characters.</p>
+<p>This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11.</p>
+ [code: instance-too-long]
 
 
 
@@ -591,21 +334,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, math, duployan, canadian-aboriginal, syriac, hebrew, old-permic, coptic, todhri, malayalam</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, syriac, malayalam, coptic, tai-le, old-permic, tifinagh, duployan, todhri, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, cherokee, caucasian-albanian, syriac, sunuwar, thai</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, sunuwar, tifinagh, cherokee, thai, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -634,10 +377,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, meetei-mayek, batak, tagalog, tibetan, zanabazar-square, modi, javanese, oriya, syriac, hebrew, buginese, buhid, gurmukhi, phags-pa, syloti-nagri, kaithi, brahmi, tirhuta, masaram-gondi, psalter-pahlavi, tifinagh, khmer, gujarati, new-tai-lue, myanmar, tagbanwa, saurashtra, kharoshthi, warang-citi, khojki, dogra, khudawadi, newa, hatran, gunjala-gondi, limbu, malayalam, tai-tham, tai-viet, sundanese, mandaic, lepcha, takri, duployan, sinhala, tamil, grantha, hanifi-rohingya, rejang, devanagari, mongolian, arabic, cham, nko, tai-le, yi, sharada, hanunoo, chakma, kayah-li, telugu, pahawh-hmong, lao, bhaiksuki, mahajani, sogdian, manichaean, thaana, thai, siddham, balinese, bengali, kannada</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, meetei-mayek, batak, tagalog, tibetan, zanabazar-square, modi, javanese, oriya, syriac, hebrew, buginese, buhid, gurmukhi, phags-pa, syloti-nagri, kaithi, brahmi, old-hungarian, tirhuta, masaram-gondi, psalter-pahlavi, tifinagh, khmer, gujarati, new-tai-lue, myanmar, tagbanwa, saurashtra, kharoshthi, warang-citi, khojki, dogra, khudawadi, newa, gunjala-gondi, limbu, malayalam, tai-tham, tai-viet, sundanese, mandaic, lepcha, takri, duployan, sinhala, tamil, grantha, hanifi-rohingya, rejang, devanagari, mongolian, arabic, cham, nko, tai-le, yi, sharada, hanunoo, chakma, kayah-li, telugu, pahawh-hmong, lao, bhaiksuki, mahajani, sogdian, manichaean, thaana, thai, siddham, balinese, bengali, kannada</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, hebrew, phags-pa, thaana, arabic</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, hebrew, thaana, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: hebrew, grantha, zanabazar-square, syriac, sogdian, malayalam, kannada, batak, cham, masaram-gondi, saurashtra, warang-citi, rejang, khojki, limbu, duployan, oriya, nko, brahmi, syloti-nagri, hatran, buginese, manichaean, kharoshthi, yi, avestan, lao, tai-le, tai-viet, dogra, chakma, myanmar, lepcha, meetei-mayek, bengali, tamil, takri, sharada, bhaiksuki, gunjala-gondi, tagalog, mahajani, siddham, kayah-li, mandaic, sinhala, sundanese, buhid, pahawh-hmong, tai-tham, arabic, mongolian, balinese, thaana, devanagari, phags-pa, new-tai-lue, psalter-pahlavi, telugu, thai, hanifi-rohingya, newa, gujarati, tagbanwa, gurmukhi, modi, khudawadi, khmer, kaithi, tifinagh, tibetan, javanese, hanunoo, tirhuta</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: hebrew, grantha, zanabazar-square, syriac, sogdian, malayalam, kannada, batak, cham, masaram-gondi, saurashtra, warang-citi, rejang, khojki, limbu, duployan, old-hungarian, oriya, nko, brahmi, syloti-nagri, manichaean, buginese, kharoshthi, yi, avestan, lao, tai-le, tai-viet, dogra, chakma, myanmar, lepcha, meetei-mayek, bengali, tamil, takri, sharada, bhaiksuki, gunjala-gondi, tagalog, mahajani, siddham, kayah-li, mandaic, sinhala, sundanese, buhid, pahawh-hmong, tai-tham, arabic, mongolian, balinese, thaana, devanagari, phags-pa, new-tai-lue, psalter-pahlavi, telugu, thai, hanifi-rohingya, newa, gujarati, tagbanwa, gurmukhi, modi, khudawadi, khmer, kaithi, tifinagh, tibetan, javanese, hanunoo, tirhuta</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: hebrew, syriac, arabic, thaana, phags-pa, nko</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: hebrew, syriac, thaana, phags-pa, nko</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
@@ -675,7 +418,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, yi, tai-tham, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, tai-tham, symbols, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -684,8 +427,8 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, buhid, soyombo, marchen, masaram-gondi, tifinagh, gujarati, myanmar, warang-citi, khojki, ahom, tai-tham, malayalam, wancho, duployan, tamil, rejang, mongolian, nko, sharada, bhaiksuki, coptic, thai, siddham, kannada, zanabazar-square, modi, syriac, elbasan, gurmukhi, syloti-nagri, tirhuta, armenian, adlam, khmer, tagbanwa, saurashtra, old-permic, tai-viet, mandaic, music, tai-le, hanunoo, kayah-li, thaana, sogdian, math, meetei-mayek, tibetan, miao, javanese, mende-kikakui, oriya, buginese, phags-pa, kaithi, brahmi, dogra, limbu, takri, sinhala, hanifi-rohingya, devanagari, yi, tagalog, balinese, batak, canadian-aboriginal, hebrew, psalter-pahlavi, new-tai-lue, kharoshthi, osage, khudawadi, newa, symbols, gunjala-gondi, sundanese, caucasian-albanian, grantha, cham, chakma, telugu, pahawh-hmong, lao, mahajani, manichaean, bengali, lepcha</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: yi, chinese-traditional, chinese-simplified, phags-pa, japanese, nushu, chinese-hongkong</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: coptic, batak, warang-citi, oriya, bengali, wancho, bhaiksuki, siddham, mandaic, buhid, devanagari, new-tai-lue, gujarati, tibetan, thai, syriac, cham, marchen, mende-kikakui, rejang, duployan, brahmi, syloti-nagri, tai-le, tai-viet, lepcha, armenian, takri, sundanese, pahawh-hmong, telugu, tifinagh, hanunoo, hebrew, grantha, zanabazar-square, sogdian, malayalam, osage, masaram-gondi, saurashtra, manichaean, buginese, yi, dogra, chakma, sharada, miao, tagalog, mahajani, kayah-li, sinhala, soyombo, tai-tham, old-permic, phags-pa, psalter-pahlavi, elbasan, newa, gurmukhi, canadian-aboriginal, adlam, ahom, kaithi, kannada, khojki, limbu, nko, kharoshthi, music, lao, myanmar, meetei-mayek, tamil, gunjala-gondi, caucasian-albanian, mongolian, balinese, thaana, bassa-vah, hanifi-rohingya, tagbanwa, math, modi, khudawadi, symbols, khmer, javanese, tirhuta</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-traditional, nushu, yi, japanese, phags-pa, chinese-hongkong, chinese-simplified</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
@@ -721,50 +464,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
-<pre><code>* bracketleft (U+005B) has a counter-clockwise outer contour
-
-* bracketright (U+005D) has a counter-clockwise outer contour
-
-* exclam (U+0021) has a counter-clockwise outer contour
-
-* exclamdown (U+00A1) has a counter-clockwise outer contour
-
-* guillemotleft (U+00AB) has a counter-clockwise outer contour
-
-* guillemotleft (U+00AB) has a counter-clockwise outer contour
-
-* guillemotright (U+00BB) has a counter-clockwise outer contour
-
-* guillemotright (U+00BB) has a counter-clockwise outer contour
-
-* guilsinglleft (U+2039) has a counter-clockwise outer contour
-
-* guilsinglright (U+203A) has a counter-clockwise outer contour
-
-* uniFF01 (U+FF01) has a counter-clockwise outer contour
-
-* uniFF3B (U+FF3B) has a counter-clockwise outer contour
-
-* uniFF3D (U+FF3D) has a counter-clockwise outer contour
-</code></pre>
- [code: ccw-outer-contour]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
     <div>
 
@@ -780,24 +479,6 @@ definitions.</p>
 - f + l
 </code></pre>
  [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
 
 
 
@@ -849,8 +530,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 1 | 21 | 185 | 15 | 262 | 0 | 
-| 0% | 0% | 0% | 4% | 38% | 3% | 54% | 0% | 
+| 0 | 0 | 1 | 11 | 185 | 15 | 272 | 0 | 
+| 0% | 0% | 0% | 2% | 38% | 3% | 56% | 0% | 
 
 
 
