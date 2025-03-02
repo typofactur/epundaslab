@@ -1,0 +1,24 @@
+{
+glyphname = hungarumlaut;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = hungarumlautcomb;
+}
+);
+width = 460;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = hungarumlautcomb;
+}
+);
+width = 550;
+}
+);
+unicode = 733;
+}

@@ -1,0 +1,46 @@
+{
+glyphname = apostrophemod;
+kernLeft = KO_apostrophemod;
+kernRight = KO_apostrophemod;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(113,500,l),
+(153,500,l),
+(256,700,l),
+(196,700,l)
+);
+}
+);
+width = 220;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,440,l),
+(165,440,l),
+(321,700,l),
+(181,700,l)
+);
+}
+);
+width = 250;
+}
+);
+metricLeft = "=i";
+metricRight = "=i";
+unicode = 700;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

@@ -1,0 +1,34 @@
+{
+glyphname = Abreve;
+kernLeft = KO_A;
+kernRight = KO_A;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (138,167);
+ref = brevecomb;
+}
+);
+width = 608;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (162,157);
+ref = brevecomb;
+}
+);
+width = 660;
+}
+);
+unicode = 258;
+}

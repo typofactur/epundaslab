@@ -1,0 +1,74 @@
+{
+glyphname = periodcentered;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (200,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (276,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,205,o),
+(170,225,o),
+(170,250,cs),
+(170,275,o),
+(150,295,o),
+(125,295,cs),
+(100,295,o),
+(80,275,o),
+(80,250,cs),
+(80,225,o),
+(100,205,o),
+(125,205,cs)
+);
+}
+);
+width = 250;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(305,150,o),
+(350,194,o),
+(350,250,cs),
+(350,305,o),
+(305,350,o),
+(250,350,cs),
+(194,350,o),
+(150,305,o),
+(150,250,cs),
+(150,194,o),
+(194,150,o),
+(250,150,cs)
+);
+}
+);
+width = 500;
+}
+);
+metricRight = "=|";
+note = periodcentered;
+unicode = (183,8729);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

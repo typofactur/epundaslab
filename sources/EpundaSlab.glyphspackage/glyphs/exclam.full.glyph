@@ -1,0 +1,25 @@
+{
+glyphname = exclam.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (192,0);
+ref = exclam;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = exclam;
+}
+);
+width = 250;
+}
+);
+unicode = 65281;
+}

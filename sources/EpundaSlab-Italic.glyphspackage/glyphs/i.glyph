@@ -1,0 +1,100 @@
+{
+glyphname = i;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(93,0,l),
+(199,500,l),
+(139,500,l),
+(33,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,585,o),
+(236,605,o),
+(242,630,cs),
+(247,655,o),
+(231,675,o),
+(206,675,cs),
+(181,675,o),
+(157,655,o),
+(152,630,cs),
+(146,605,o),
+(162,585,o),
+(187,585,cs)
+);
+},
+{
+pos = (139,500);
+ref = _serif.Spur;
+},
+{
+pos = (33,0);
+ref = _serif.I.BL;
+},
+{
+pos = (93,0);
+ref = _serif.I.BR;
+}
+);
+width = 221;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,0,l),
+(319,500,l),
+(139,500,l),
+(32,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(290,530,o),
+(344,574,o),
+(356,630,cs),
+(368,685,o),
+(333,730,o),
+(278,730,cs),
+(222,730,o),
+(168,685,o),
+(156,630,cs),
+(144,574,o),
+(179,530,o),
+(235,530,cs)
+);
+},
+{
+pos = (139,500);
+ref = _serif.Spur;
+},
+{
+pos = (32,0);
+ref = _serif.I.BL;
+},
+{
+pos = (212,0);
+ref = _serif.I.BR;
+}
+);
+width = 340;
+}
+);
+metricLeft = "=n";
+unicode = 105;
+userData = {
+KernOnName = i;
+};
+}

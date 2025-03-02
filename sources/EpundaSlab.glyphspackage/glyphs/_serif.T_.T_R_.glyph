@@ -1,0 +1,36 @@
+{
+export = 0;
+glyphname = _serif.T.TR;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,0,l),
+(-70,0,l),
+(-35,-140,l),
+(0,-140,l)
+);
+}
+);
+width = 100;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,0,l),
+(-155,0,l),
+(-120,-190,l),
+(0,-190,l)
+);
+}
+);
+width = 100;
+}
+);
+}

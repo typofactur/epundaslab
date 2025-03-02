@@ -1,0 +1,32 @@
+{
+glyphname = jcircumflex;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (-100,0);
+ref = circumflexcomb;
+}
+);
+width = 210;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (-90,0);
+ref = circumflexcomb;
+}
+);
+width = 230;
+}
+);
+unicode = 309;
+}

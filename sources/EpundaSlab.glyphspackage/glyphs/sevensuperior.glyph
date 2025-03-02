@@ -1,0 +1,34 @@
+{
+glyphname = sevensuperior;
+kernLeft = KO_sevensuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = seven.numr;
+}
+);
+width = 303;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,125);
+ref = seven.numr;
+}
+);
+width = 347;
+}
+);
+metricLeft = seven.numr;
+metricRight = seven.numr;
+unicode = 8311;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

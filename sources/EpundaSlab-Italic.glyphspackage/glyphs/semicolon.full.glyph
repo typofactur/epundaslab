@@ -1,0 +1,24 @@
+{
+glyphname = semicolon.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = semicolon;
+}
+);
+width = 199;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = semicolon;
+}
+);
+width = 284;
+}
+);
+unicode = 65307;
+}

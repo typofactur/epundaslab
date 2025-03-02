@@ -1,0 +1,68 @@
+{
+glyphname = euro;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (55,0);
+ref = C;
+},
+{
+closed = 1;
+nodes = (
+(0,363,l),
+(438,363,l),
+(465,423,l),
+(27,423,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,243,l),
+(385,243,l),
+(412,303,l),
+(27,303,l)
+);
+}
+);
+width = 583;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (85,0);
+ref = C;
+},
+{
+closed = 1;
+nodes = (
+(0,353,l),
+(568,353,l),
+(592,453,l),
+(24,453,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,213,l),
+(535,213,l),
+(559,313,l),
+(24,313,l)
+);
+}
+);
+width = 638;
+}
+);
+unicode = 8364;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

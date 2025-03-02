@@ -1,0 +1,48 @@
+{
+glyphname = threequarters;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (318,0);
+ref = fraction;
+},
+{
+pos = (568,0);
+ref = four.dnom;
+}
+);
+width = 922;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (355,0);
+ref = fraction;
+},
+{
+pos = (605,0);
+ref = four.dnom;
+}
+);
+width = 957;
+}
+);
+metricLeft = three.numr;
+metricRight = three.numr;
+unicode = 190;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

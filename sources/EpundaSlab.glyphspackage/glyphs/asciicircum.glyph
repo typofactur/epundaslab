@@ -1,0 +1,63 @@
+{
+glyphname = asciicircum;
+kernLeft = KO_asciicircum;
+kernRight = KO_asciicircum;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,417,l),
+(360,417,l),
+(240,667,l),
+(170,667,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(170,667,l),
+(50,417,l),
+(110,417,l),
+(240,667,l)
+);
+}
+);
+width = 410;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(245,417,l),
+(385,417,l),
+(285,667,l),
+(145,667,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(125,667,l),
+(25,417,l),
+(165,417,l),
+(265,667,l)
+);
+}
+);
+width = 410;
+}
+);
+metricRight = "=|";
+unicode = 94;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

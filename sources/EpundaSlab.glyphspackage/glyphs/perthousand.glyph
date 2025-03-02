@@ -1,0 +1,57 @@
+{
+glyphname = perthousand;
+kernLeft = KO_percent;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = zero.numr;
+},
+{
+alignment = -1;
+pos = (358,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (531,0);
+ref = zero.dnom;
+},
+{
+alignment = -1;
+pos = (907,0);
+ref = zero.dnom;
+}
+);
+width = 1274;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+ref = zero.numr;
+},
+{
+alignment = -1;
+pos = (344,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (521,0);
+ref = zero.dnom;
+},
+{
+alignment = -1;
+pos = (919,0);
+ref = zero.dnom;
+}
+);
+width = 1328;
+}
+);
+unicode = 8240;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = tbar;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-64,0);
+ref = strokeshortcomb;
+}
+);
+width = 319;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-33,0);
+ref = strokeshortcomb;
+}
+);
+width = 350;
+}
+);
+unicode = 359;
+}

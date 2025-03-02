@@ -1,0 +1,34 @@
+{
+glyphname = Tdotbelow;
+kernLeft = KO_T;
+kernRight = KO_T;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (188,0);
+ref = dotbelowcomb;
+}
+);
+width = 495;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (156,0);
+ref = dotbelowcomb;
+}
+);
+width = 542;
+}
+);
+unicode = 7788;
+}

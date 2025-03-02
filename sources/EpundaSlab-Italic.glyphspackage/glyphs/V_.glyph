@@ -1,0 +1,80 @@
+{
+glyphname = V;
+kernLeft = KO_V;
+kernRight = KO_V;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(176,667,l),
+(109,667,l),
+(183,0,l),
+(259,0,l),
+(617,667,l),
+(549,667,l),
+(236,69,l)
+);
+},
+{
+pos = (129,667);
+ref = _serif.I.TL;
+},
+{
+pos = (549,667);
+ref = _serif.I.TL;
+},
+{
+pos = (597,667);
+ref = _serif.I.TR;
+},
+{
+pos = (176,667);
+ref = _serif.I.TR;
+}
+);
+width = 548;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,667,l),
+(100,667,l),
+(148,0,l),
+(348,0,l),
+(680,667,l),
+(480,667,l),
+(303,259,l)
+);
+},
+{
+pos = (130,667);
+ref = _serif.I.TL;
+},
+{
+pos = (480,667);
+ref = _serif.I.TL;
+},
+{
+pos = (650,667);
+ref = _serif.I.TR;
+},
+{
+pos = (300,667);
+ref = _serif.I.TR;
+}
+);
+width = 602;
+}
+);
+metricRight = "=|";
+unicode = 86;
+userData = {
+KernOnName = V;
+};
+}

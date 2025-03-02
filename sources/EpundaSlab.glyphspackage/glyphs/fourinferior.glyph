@@ -1,0 +1,33 @@
+{
+glyphname = fourinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = four.dnom;
+}
+);
+width = 349;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,-125);
+ref = four.dnom;
+}
+);
+width = 352;
+}
+);
+metricLeft = four.dnom;
+metricRight = four.dnom;
+unicode = 8324;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

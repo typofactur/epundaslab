@@ -1,0 +1,32 @@
+{
+glyphname = Macute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = M.salt;
+},
+{
+pos = (319,167);
+ref = acutecomb;
+}
+);
+width = 788;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = M.salt;
+},
+{
+pos = (245,167);
+ref = acutecomb;
+}
+);
+width = 800;
+}
+);
+unicode = 7742;
+}

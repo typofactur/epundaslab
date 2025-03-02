@@ -1,0 +1,34 @@
+{
+glyphname = Udieresis;
+kernLeft = KO_U;
+kernRight = KO_U;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (177,137);
+ref = dieresiscomb;
+}
+);
+width = 624;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (117,157);
+ref = dieresiscomb;
+}
+);
+width = 674;
+}
+);
+unicode = 220;
+}

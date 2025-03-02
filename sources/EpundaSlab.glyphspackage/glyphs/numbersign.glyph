@@ -1,0 +1,117 @@
+{
+glyphname = numbersign;
+kernLeft = KO_numbersign;
+kernRight = KO_numbersign;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-8,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (133,67);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (297,66);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (483,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(119,0,l),
+(174,0,l),
+(280,500,l),
+(225,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(319,0,l),
+(374,0,l),
+(481,500,l),
+(426,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(83,378,l),
+(71,323,l),
+(571,323,l),
+(583,378,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(29,177,l),
+(17,122,l),
+(517,122,l),
+(529,177,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,0,l),
+(273,0,l),
+(392,560,l),
+(276,560,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(357,0,l),
+(473,0,l),
+(593,560,l),
+(477,560,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(134,438,l),
+(109,323,l),
+(670,323,l),
+(695,438,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,237,l),
+(55,122,l),
+(616,122,l),
+(641,237,l)
+);
+}
+);
+width = 750;
+}
+);
+note = numbersign;
+unicode = 35;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = zerosuperior;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = zero.numr;
+}
+);
+width = 367;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = zero.numr;
+}
+);
+width = 410;
+}
+);
+metricLeft = zero.numr;
+metricRight = zero.numr;
+unicode = 8304;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

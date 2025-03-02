@@ -1,0 +1,33 @@
+{
+glyphname = sixinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = six.dnom;
+}
+);
+width = 308;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,-125);
+ref = six.dnom;
+}
+);
+width = 351;
+}
+);
+metricLeft = six.dnom;
+metricRight = six.dnom;
+unicode = 8326;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

@@ -1,0 +1,27 @@
+{
+glyphname = zero.numr;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (53,250);
+ref = zero.dnom;
+}
+);
+width = 367;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (53,250);
+ref = zero.dnom;
+}
+);
+width = 410;
+}
+);
+metricLeft = zero.dnom;
+metricRight = zero.dnom;
+}

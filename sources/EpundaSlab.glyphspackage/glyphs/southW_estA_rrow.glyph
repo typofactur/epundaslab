@@ -1,0 +1,78 @@
+{
+glyphname = southWestArrow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(597,411,l),
+(562,446,l),
+(208,93,l),
+(243,58,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(454,53,l),
+(454,99,l),
+(204,99,l),
+(204,53,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(249,53,l),
+(249,304,l),
+(204,304,l),
+(204,53,l)
+);
+}
+);
+width = 800;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(645,410,l),
+(560,495,l),
+(164,99,l),
+(249,14,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(464,5,l),
+(464,124,l),
+(155,124,l),
+(155,5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(273,5,l),
+(273,315,l),
+(155,315,l),
+(155,5,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 8601;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

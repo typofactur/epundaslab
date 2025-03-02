@@ -1,0 +1,82 @@
+{
+glyphname = parenright;
+kernLeft = KO_parenright;
+kernRight = KO_parenright;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-85,22);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (751,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (206,82);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(191,111,o),
+(80,-10,o),
+(45,-38,c),
+(73,-82,l),
+(140,-44,o),
+(252,99,o),
+(252,332,cs),
+(252,563,o),
+(140,706,o),
+(73,743,c),
+(45,699,l),
+(80,671,o),
+(191,550,o),
+(191,332,cs)
+);
+}
+);
+width = 297;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,111,o),
+(50,-10,o),
+(15,-38,c),
+(133,-122,l),
+(200,-84,o),
+(332,59,o),
+(332,332,cs),
+(332,603,o),
+(200,746,o),
+(133,783,c),
+(15,699,l),
+(50,671,o),
+(161,550,o),
+(161,332,cs)
+);
+}
+);
+width = 347;
+}
+);
+metricRight = "=O";
+note = parenright;
+unicode = 41;
+userData = {
+KernOnSpecialSpacing = {
+L = parenthesis;
+};
+};
+}

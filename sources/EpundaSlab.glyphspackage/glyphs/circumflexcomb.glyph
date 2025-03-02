@@ -1,0 +1,82 @@
+{
+glyphname = circumflexcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (160,500);
+},
+{
+name = top;
+pos = (160,700);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(245,560,l),
+(305,560,l),
+(195,700,l),
+(125,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(125,700,l),
+(15,560,l),
+(75,560,l),
+(195,700,l)
+);
+}
+);
+width = 320;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (195,500);
+},
+{
+name = top;
+pos = (195,700);
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(235,540,l),
+(375,540,l),
+(275,700,l),
+(135,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(115,700,l),
+(15,540,l),
+(155,540,l),
+(255,700,l)
+);
+}
+);
+width = 380;
+}
+);
+metricLeft = "=i";
+metricRight = "=i";
+unicode = 770;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

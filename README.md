@@ -52,7 +52,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **31 December 2024. Version 1.100**
 - kerning with kern on
 
-**04 January 2024. Version 1.101**
+**04 January 2025. Version 1.101**
 - contour order colon
 - width math signs
 - no softhyphen
@@ -62,6 +62,15 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - kerning f+i, f+l
 - caret position ligatures fi and fl
 - contour order guillemotright
+
+**02 March 2025. Version 1.102**
+- commaturnedabovecomb
+- Aogonek, Eogonek, Iogonek, Uogonek, aogonek, eogonek, uogonek
+- caroncomb.alt
+- kerning Lcaron, dcaron, lcaron, tcaron
+- Ldot, ldot added
+- Dcroat = Eth
+- kerning with Kern On
 
 
 ## License

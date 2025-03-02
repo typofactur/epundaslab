@@ -1,0 +1,20 @@
+{
+glyphname = emquad;
+layers = (
+{
+layerId = m003;
+width = 1000;
+},
+{
+layerId = m004;
+width = 1000;
+}
+);
+unicode = 8193;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

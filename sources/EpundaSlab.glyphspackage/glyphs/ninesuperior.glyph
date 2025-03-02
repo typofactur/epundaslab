@@ -1,0 +1,34 @@
+{
+glyphname = ninesuperior;
+kernLeft = KO_ninesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = nine.numr;
+}
+);
+width = 308;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,125);
+ref = nine.numr;
+}
+);
+width = 352;
+}
+);
+metricLeft = nine.numr;
+metricRight = nine.numr;
+unicode = 8313;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

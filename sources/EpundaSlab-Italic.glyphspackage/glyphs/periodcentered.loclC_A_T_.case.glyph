@@ -1,0 +1,32 @@
+{
+glyphname = periodcentered.loclCAT.case;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+pos = (-49,75);
+ref = periodcentered;
+}
+);
+width = 120;
+},
+{
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+pos = (-120,75);
+ref = periodcentered;
+}
+);
+width = 228;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+userData = {
+KernOnName = periodcentered.loclCAT.case;
+};
+}

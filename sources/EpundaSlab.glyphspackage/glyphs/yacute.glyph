@@ -1,0 +1,34 @@
+{
+glyphname = yacute;
+kernLeft = KO_y;
+kernRight = KO_y;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (154,0);
+ref = acutecomb;
+}
+);
+width = 458;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (89,0);
+ref = acutecomb;
+}
+);
+width = 498;
+}
+);
+unicode = 253;
+}

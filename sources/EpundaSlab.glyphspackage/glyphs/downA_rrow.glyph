@@ -1,0 +1,78 @@
+{
+glyphname = downArrow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(577,161,l),
+(545,193,l),
+(368,16,l),
+(400,-16,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(432,16,l),
+(255,193,l),
+(223,161,l),
+(400,-16,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(425,15,l),
+(425,515,l),
+(375,515,l),
+(375,15,l)
+);
+}
+);
+width = 800;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(619,153,l),
+(535,237,l),
+(316,18,l),
+(400,-66,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(484,18,l),
+(265,237,l),
+(181,153,l),
+(400,-66,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(460,7,l),
+(460,567,l),
+(340,567,l),
+(340,7,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 8595;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

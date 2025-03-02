@@ -1,0 +1,93 @@
+{
+glyphname = numbersign;
+kernLeft = KO_numbersign;
+kernRight = KO_numbersign;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(66,0,l),
+(121,0,l),
+(333,500,l),
+(278,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(266,0,l),
+(321,0,l),
+(534,500,l),
+(479,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(110,378,l),
+(87,323,l),
+(587,323,l),
+(610,378,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(13,177,l),
+(-10,122,l),
+(490,122,l),
+(513,177,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(104,0,l),
+(220,0,l),
+(458,560,l),
+(342,560,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(304,0,l),
+(420,0,l),
+(659,560,l),
+(543,560,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(174,438,l),
+(125,323,l),
+(686,323,l),
+(735,438,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(77,237,l),
+(28,122,l),
+(589,122,l),
+(638,237,l)
+);
+}
+);
+width = 750;
+}
+);
+note = numbersign;
+unicode = 35;
+}

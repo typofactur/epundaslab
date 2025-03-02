@@ -1,0 +1,27 @@
+{
+glyphname = eight.numr;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,250);
+ref = eight.dnom;
+}
+);
+width = 308;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,250);
+ref = eight.dnom;
+}
+);
+width = 352;
+}
+);
+metricLeft = eight.dnom;
+metricRight = eight.dnom;
+}

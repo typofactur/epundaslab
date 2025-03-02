@@ -1,0 +1,34 @@
+{
+glyphname = dcircumflexbelow;
+kernLeft = KO_o;
+kernRight = KO_i;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (38,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 499;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (78,0);
+ref = circumflexbelowcomb;
+}
+);
+width = 564;
+}
+);
+unicode = 7699;
+}

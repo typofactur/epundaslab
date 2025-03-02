@@ -1,0 +1,25 @@
+{
+glyphname = comma.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (183,0);
+ref = comma;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = comma;
+}
+);
+width = 275;
+}
+);
+unicode = 65292;
+}

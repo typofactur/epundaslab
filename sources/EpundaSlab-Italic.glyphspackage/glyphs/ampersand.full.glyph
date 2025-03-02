@@ -1,0 +1,24 @@
+{
+glyphname = ampersand.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = ampersand;
+}
+);
+width = 600;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = ampersand;
+}
+);
+width = 600;
+}
+);
+unicode = 65286;
+}

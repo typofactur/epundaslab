@@ -1,0 +1,24 @@
+{
+glyphname = slash.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = slash;
+}
+);
+width = 321;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = slash;
+}
+);
+width = 401;
+}
+);
+unicode = 65295;
+}

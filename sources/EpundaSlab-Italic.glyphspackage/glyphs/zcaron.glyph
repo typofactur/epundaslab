@@ -1,0 +1,34 @@
+{
+glyphname = zcaron;
+kernLeft = KO_z;
+kernRight = KO_z;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = z;
+},
+{
+pos = (13,0);
+ref = caroncomb;
+}
+);
+width = 435;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = z;
+},
+{
+pos = (33,0);
+ref = caroncomb;
+}
+);
+width = 475;
+}
+);
+unicode = 382;
+}

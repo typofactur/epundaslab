@@ -1,0 +1,62 @@
+{
+glyphname = multiply;
+kernRight = KO_multiply;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,477,l),
+(412,180,l),
+(464,223,l),
+(230,520,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(484,520,l),
+(124,223,l),
+(158,180,l),
+(518,477,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(131,484,l),
+(409,131,l),
+(513,216,l),
+(235,569,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(503,569,l),
+(75,216,l),
+(141,131,l),
+(569,484,l)
+);
+}
+);
+width = 601;
+}
+);
+metricRight = "=|";
+unicode = 215;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

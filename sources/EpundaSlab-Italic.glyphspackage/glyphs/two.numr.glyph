@@ -1,0 +1,28 @@
+{
+glyphname = two.numr;
+kernLeft = KO_twosuperior;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (53,250);
+ref = two.dnom;
+}
+);
+width = 293;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (53,250);
+ref = two.dnom;
+}
+);
+width = 329;
+}
+);
+metricLeft = two.dnom;
+metricRight = two.dnom;
+}

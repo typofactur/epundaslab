@@ -1,0 +1,54 @@
+{
+glyphname = threequarters;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = three.numr;
+},
+{
+alignment = -1;
+pos = (314,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (421,0);
+ref = four.dnom;
+}
+);
+width = 770;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+ref = three.numr;
+},
+{
+alignment = -1;
+pos = (297,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (442,0);
+ref = four.dnom;
+}
+);
+width = 814;
+}
+);
+metricLeft = three.numr;
+metricRight = three.numr;
+unicode = 190;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

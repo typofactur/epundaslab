@@ -1,0 +1,34 @@
+{
+glyphname = ubreve;
+kernLeft = KO_u;
+kernRight = KO_u;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (63,0);
+ref = brevecomb;
+}
+);
+width = 535;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (96,0);
+ref = brevecomb;
+}
+);
+width = 595;
+}
+);
+unicode = 365;
+}

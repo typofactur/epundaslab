@@ -1,0 +1,57 @@
+{
+glyphname = logicalnot;
+kernLeft = KO_plus;
+kernRight = KO_logicalnot;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(90,320,l),
+(510,320,l),
+(510,380,l),
+(90,380,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(510,170,l),
+(510,380,l),
+(450,380,l),
+(450,170,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,280,l),
+(550,280,l),
+(550,410,l),
+(50,410,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(550,160,l),
+(550,410,l),
+(420,410,l),
+(420,160,l)
+);
+}
+);
+width = 600;
+}
+);
+metricRight = "=|";
+unicode = 172;
+}

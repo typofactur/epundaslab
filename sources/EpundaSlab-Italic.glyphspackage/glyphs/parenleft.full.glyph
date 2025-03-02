@@ -1,0 +1,24 @@
+{
+glyphname = parenleft.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = parenleft;
+}
+);
+width = 345;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = parenleft;
+}
+);
+width = 332;
+}
+);
+unicode = 65288;
+}

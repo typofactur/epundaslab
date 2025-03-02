@@ -1,0 +1,40 @@
+{
+glyphname = trademark;
+kernLeft = KO_trademark;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = T;
+},
+{
+alignment = -1;
+pos = (481,0);
+ref = M;
+}
+);
+width = 1281;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (542,0);
+ref = M;
+}
+);
+width = 1392;
+}
+);
+unicode = 8482;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+};
+};
+}

@@ -1,0 +1,37 @@
+{
+glyphname = tcaron;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = t;
+},
+{
+alignment = -1;
+pos = (263,0);
+ref = caroncomb.alt;
+}
+);
+width = 319;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = t;
+},
+{
+alignment = -1;
+pos = (314,0);
+ref = caroncomb.alt;
+}
+);
+width = 350;
+}
+);
+unicode = 357;
+userData = {
+KernOnName = tcaron;
+};
+}

@@ -1,0 +1,24 @@
+{
+glyphname = percent.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = percent;
+}
+);
+width = 984;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = percent;
+}
+);
+width = 1070;
+}
+);
+unicode = 65285;
+}

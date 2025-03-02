@@ -1,0 +1,32 @@
+{
+glyphname = seveninferior;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = seven.dnom;
+}
+);
+width = 309;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = seven.dnom;
+}
+);
+width = 347;
+}
+);
+metricLeft = seven.dnom;
+metricRight = seven.dnom;
+unicode = 8327;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

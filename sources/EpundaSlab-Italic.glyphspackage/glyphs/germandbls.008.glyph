@@ -1,0 +1,16 @@
+{
+export = 0;
+glyphname = germandbls.008;
+layers = (
+{
+layerId = m003;
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+}
+);
+metricLeft = "=h";
+metricRight = "=s";
+}

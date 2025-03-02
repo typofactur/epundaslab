@@ -1,0 +1,36 @@
+{
+export = 0;
+glyphname = _serif.Spur;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(10,0,l),
+(-70,0,l),
+(-70,-35,l),
+(10,-55,l)
+);
+}
+);
+width = 120;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(10,0,l),
+(-70,0,l),
+(-70,-115,l),
+(10,-135,l)
+);
+}
+);
+width = 160;
+}
+);
+}

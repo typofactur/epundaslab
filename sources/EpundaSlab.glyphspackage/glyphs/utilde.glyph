@@ -1,0 +1,34 @@
+{
+glyphname = utilde;
+kernLeft = KO_u;
+kernRight = KO_i;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (75,0);
+ref = tildecomb;
+}
+);
+width = 535;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (48,0);
+ref = tildecomb;
+}
+);
+width = 595;
+}
+);
+unicode = 361;
+}

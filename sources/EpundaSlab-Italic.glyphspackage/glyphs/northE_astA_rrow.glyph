@@ -1,0 +1,78 @@
+{
+glyphname = northEastArrow;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(378,401,l),
+(628,401,l),
+(638,447,l),
+(388,447,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(196,54,l),
+(625,407,l),
+(598,442,l),
+(169,89,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(584,196,l),
+(638,447,l),
+(593,447,l),
+(539,196,l)
+);
+}
+);
+width = 800;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,365,l),
+(660,365,l),
+(685,484,l),
+(375,484,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(201,15,l),
+(656,390,l),
+(589,475,l),
+(134,100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(619,174,l),
+(685,484,l),
+(566,484,l),
+(500,174,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 8599;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

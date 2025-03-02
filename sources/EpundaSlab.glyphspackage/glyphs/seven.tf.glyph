@@ -1,0 +1,63 @@
+{
+glyphname = seven.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,267,o),
+(507,607,o),
+(507,607,c),
+(507,667,l),
+(94,667,l),
+(94,607,l),
+(443,607,l),
+(443,607,o),
+(185,267,o),
+(185,0,c),
+(250,0,l)
+);
+},
+{
+pos = (94,667);
+ref = _serif.T.TL;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(290,267,o),
+(547,527,o),
+(547,527,cs),
+(547,667,l),
+(54,667,l),
+(54,527,l),
+(363,527,l),
+(363,527,o),
+(105,267,o),
+(105,0,c),
+(290,0,l)
+);
+},
+{
+pos = (54,667);
+ref = _serif.T.TL;
+}
+);
+width = 600;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

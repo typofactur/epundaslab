@@ -1,0 +1,28 @@
+{
+glyphname = three.numr;
+kernRight = KO_three.numr;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (53,250);
+ref = three.dnom;
+}
+);
+width = 318;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (53,250);
+ref = three.dnom;
+}
+);
+width = 355;
+}
+);
+metricLeft = three.dnom;
+metricRight = three.dnom;
+}

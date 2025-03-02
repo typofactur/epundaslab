@@ -1,0 +1,99 @@
+{
+glyphname = asterisk;
+kernLeft = KO_asterisk;
+kernRight = KO_asterisk;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (350,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (759,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (238,67);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(223,350,l),
+(278,350,l),
+(278,700,l),
+(223,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(85,461,l),
+(113,414,l),
+(416,589,l),
+(388,636,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(113,636,l),
+(85,589,l),
+(388,414,l),
+(416,461,l)
+);
+}
+);
+width = 500;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(203,330,l),
+(298,330,l),
+(298,720,l),
+(203,720,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(57,468,l),
+(106,387,l),
+(444,582,l),
+(395,663,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(106,663,l),
+(57,582,l),
+(395,387,l),
+(444,468,l)
+);
+}
+);
+width = 500;
+}
+);
+note = asterisk;
+unicode = 42;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

@@ -1,0 +1,14 @@
+{
+export = 0;
+glyphname = S.001;
+layers = (
+{
+layerId = m003;
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+}
+);
+}

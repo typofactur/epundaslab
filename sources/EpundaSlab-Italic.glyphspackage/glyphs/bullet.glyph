@@ -1,0 +1,59 @@
+{
+glyphname = bullet;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,150,o),
+(338,195,o),
+(350,250,cs),
+(362,305,o),
+(326,350,o),
+(271,350,cs),
+(216,350,o),
+(162,305,o),
+(150,250,cs),
+(138,195,o),
+(174,150,o),
+(229,150,cs)
+);
+}
+);
+width = 500;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(297,110,o),
+(374,173,o),
+(390,250,cs),
+(406,327,o),
+(357,390,o),
+(280,390,cs),
+(203,390,o),
+(126,327,o),
+(110,250,cs),
+(94,173,o),
+(143,110,o),
+(220,110,cs)
+);
+}
+);
+width = 500;
+}
+);
+note = bullet;
+unicode = 8226;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

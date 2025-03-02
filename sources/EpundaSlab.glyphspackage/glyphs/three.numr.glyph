@@ -1,0 +1,27 @@
+{
+glyphname = three.numr;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,250);
+ref = three.dnom;
+}
+);
+width = 314;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,250);
+ref = three.dnom;
+}
+);
+width = 356;
+}
+);
+metricLeft = three.dnom;
+metricRight = three.dnom;
+}

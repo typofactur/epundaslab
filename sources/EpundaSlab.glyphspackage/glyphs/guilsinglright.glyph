@@ -1,0 +1,84 @@
+{
+glyphname = guilsinglright;
+kernLeft = KO_guillemotright;
+kernRight = KO_guillemotright;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (53,22);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (441,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (529,77);
+type = Stem;
+},
+{
+place = (-368,76);
+type = Stem;
+},
+{
+place = (-158,77);
+type = Stem;
+},
+{
+place = (242,76);
+type = Stem;
+},
+{
+place = (257,77);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(261,250,l),
+(103,430,l),
+(72,401,l),
+(193,250,l),
+(72,99,l),
+(103,70,l)
+);
+}
+);
+width = 333;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(391,250,l),
+(143,500,l),
+(72,450,l),
+(221,250,l),
+(72,50,l),
+(143,0,l)
+);
+}
+);
+width = 463;
+}
+);
+metricRight = "=|";
+note = guilsinglright;
+unicode = 8250;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

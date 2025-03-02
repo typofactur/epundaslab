@@ -1,0 +1,25 @@
+{
+glyphname = colon.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (195,0);
+ref = colon;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = colon;
+}
+);
+width = 250;
+}
+);
+unicode = 65306;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = at.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-48,0);
+ref = at;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = at;
+}
+);
+width = 709;
+}
+);
+unicode = 65312;
+}

@@ -1,0 +1,38 @@
+{
+glyphname = Saltillo;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,180,l),
+(130,180,l),
+(140,750,l),
+(60,750,l)
+);
+}
+);
+width = 200;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(45,250,l),
+(205,250,l),
+(225,750,l),
+(25,750,l)
+);
+}
+);
+width = 250;
+}
+);
+metricLeft = "=i";
+metricRight = "=|";
+unicode = 42891;
+}

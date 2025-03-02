@@ -1,0 +1,62 @@
+{
+glyphname = greater;
+kernLeft = KO_greater;
+kernRight = KO_greater;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,529,l),
+(490,295,l),
+(509,383,l),
+(181,581,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(79,99,l),
+(490,295,l),
+(509,383,l),
+(64,169,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(106,533,l),
+(523,281,l),
+(552,417,l),
+(188,637,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(62,43,l),
+(519,261,l),
+(552,417,l),
+(27,165,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 62;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

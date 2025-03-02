@@ -1,0 +1,20 @@
+{
+glyphname = threeperemspace;
+layers = (
+{
+layerId = m003;
+width = 333;
+},
+{
+layerId = m004;
+width = 333;
+}
+);
+unicode = 8196;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

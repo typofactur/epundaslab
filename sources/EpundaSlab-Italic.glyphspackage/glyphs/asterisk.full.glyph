@@ -1,0 +1,24 @@
+{
+glyphname = asterisk.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = asterisk;
+}
+);
+width = 500;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = asterisk;
+}
+);
+width = 500;
+}
+);
+unicode = 65290;
+}

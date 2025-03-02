@@ -1,0 +1,45 @@
+{
+glyphname = backslash;
+kernLeft = KO_backslash;
+kernRight = KO_backslash;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(139,-125,l),
+(194,-125,l),
+(196,700,l),
+(141,700,l)
+);
+}
+);
+width = 319;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(139,-125,l),
+(254,-125,l),
+(256,700,l),
+(141,700,l)
+);
+}
+);
+width = 379;
+}
+);
+note = backslash;
+unicode = 92;
+userData = {
+KernOnSpecialSpacing = {
+L = "spaced-off";
+R = "spaced-off";
+};
+};
+}

@@ -1,0 +1,33 @@
+{
+glyphname = tdieresis;
+kernLeft = KO_t;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-40,90);
+ref = dieresiscomb;
+}
+);
+width = 319;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-37,100);
+ref = dieresiscomb;
+}
+);
+width = 350;
+}
+);
+unicode = 7831;
+}

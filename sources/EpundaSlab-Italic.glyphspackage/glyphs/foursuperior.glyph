@@ -1,0 +1,33 @@
+{
+glyphname = foursuperior;
+kernLeft = KO_foursuperior;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = four.numr;
+}
+);
+width = 354;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = four.numr;
+}
+);
+width = 352;
+}
+);
+metricLeft = four.numr;
+metricRight = four.numr;
+unicode = 8308;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

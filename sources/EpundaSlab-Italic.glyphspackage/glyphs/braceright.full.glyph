@@ -1,0 +1,24 @@
+{
+glyphname = braceright.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = braceright;
+}
+);
+width = 326;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = braceright;
+}
+);
+width = 372;
+}
+);
+unicode = 65373;
+}

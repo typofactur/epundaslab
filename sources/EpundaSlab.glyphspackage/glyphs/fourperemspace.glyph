@@ -1,0 +1,20 @@
+{
+glyphname = fourperemspace;
+layers = (
+{
+layerId = m01;
+width = 250;
+},
+{
+layerId = m002;
+width = 250;
+}
+);
+unicode = 8197;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

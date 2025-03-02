@@ -1,0 +1,37 @@
+{
+glyphname = trademark;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (485,0);
+ref = M;
+}
+);
+width = 1215;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (542,0);
+ref = M;
+}
+);
+width = 1382;
+}
+);
+unicode = 8482;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+};
+};
+}

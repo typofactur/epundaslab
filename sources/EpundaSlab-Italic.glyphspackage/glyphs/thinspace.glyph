@@ -1,0 +1,20 @@
+{
+glyphname = thinspace;
+layers = (
+{
+layerId = m003;
+width = 200;
+},
+{
+layerId = m004;
+width = 200;
+}
+);
+unicode = 8201;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

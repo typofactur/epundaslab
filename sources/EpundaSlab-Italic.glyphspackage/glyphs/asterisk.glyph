@@ -1,0 +1,81 @@
+{
+glyphname = asterisk;
+kernLeft = KO_asterisk;
+kernRight = KO_asterisk;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,350,l),
+(299,350,l),
+(374,700,l),
+(319,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,461,l),
+(148,414,l),
+(488,589,l),
+(470,636,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(195,636,l),
+(157,589,l),
+(423,414,l),
+(461,461,l)
+);
+}
+);
+width = 500;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,330,l),
+(315,330,l),
+(398,720,l),
+(303,720,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(103,468,l),
+(135,387,l),
+(515,582,l),
+(483,663,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(194,663,l),
+(128,582,l),
+(424,387,l),
+(490,468,l)
+);
+}
+);
+width = 500;
+}
+);
+note = asterisk;
+unicode = 42;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

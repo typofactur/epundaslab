@@ -1,0 +1,49 @@
+{
+glyphname = perthousand;
+kernLeft = KO_percent;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (367,0);
+ref = fraction;
+},
+{
+pos = (617,0);
+ref = zero.dnom;
+},
+{
+pos = (984,0);
+ref = zero.dnom;
+}
+);
+width = 1351;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (410,0);
+ref = fraction;
+},
+{
+pos = (660,0);
+ref = zero.dnom;
+},
+{
+pos = (1070,0);
+ref = zero.dnom;
+}
+);
+width = 1480;
+}
+);
+unicode = 8240;
+}

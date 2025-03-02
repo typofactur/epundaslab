@@ -1,0 +1,25 @@
+{
+glyphname = hyphen.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (75,0);
+ref = hyphen;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = hyphen;
+}
+);
+width = 456;
+}
+);
+unicode = 65293;
+}

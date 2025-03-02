@@ -1,0 +1,56 @@
+{
+glyphname = strokeshortcomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (140,250);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(265,220,l),
+(265,280,l),
+(15,280,l),
+(15,220,l)
+);
+}
+);
+width = 280;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (190,250);
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(365,190,l),
+(365,310,l),
+(15,310,l),
+(15,190,l)
+);
+}
+);
+width = 370;
+}
+);
+metricLeft = "=i";
+metricRight = "=i";
+unicode = 821;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

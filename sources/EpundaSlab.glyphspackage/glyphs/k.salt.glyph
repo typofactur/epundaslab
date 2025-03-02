@@ -1,0 +1,60 @@
+{
+glyphname = k.salt;
+kernLeft = KO_iacute;
+kernRight = KO_k.salt;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(135,700,l),
+(75,700,l),
+(75,0,l),
+(135,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(460,500,l),
+(380,500,l),
+(135,257,l),
+(380,0,l),
+(460,0,l),
+(215,258,l)
+);
+}
+);
+width = 484;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,700,l),
+(35,700,l),
+(35,0,l),
+(215,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,500,l),
+(300,500,l),
+(175,257,l),
+(300,0,l),
+(500,0,l),
+(355,258,l)
+);
+}
+);
+width = 500;
+}
+);
+metricLeft = "=h";
+}

@@ -1,0 +1,34 @@
+{
+glyphname = IJ;
+kernLeft = KO_H;
+kernRight = KO_J;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (223,0);
+ref = J;
+}
+);
+width = 639;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (342,0);
+ref = J;
+}
+);
+width = 838;
+}
+);
+unicode = 306;
+}

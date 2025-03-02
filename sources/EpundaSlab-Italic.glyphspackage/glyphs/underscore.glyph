@@ -1,0 +1,47 @@
+{
+glyphname = underscore;
+kernLeft = KO_underscore;
+kernRight = KO_underscore;
+layers = (
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-34,-122,l),
+(434,-122,l),
+(463,17,l),
+(-5,17,l)
+);
+}
+);
+width = 558;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(12,-77,l),
+(400,-77,l),
+(411,-28,l),
+(23,-28,l)
+);
+}
+);
+width = 552;
+}
+);
+metricLeft = "=H";
+metricRight = "=|";
+note = underscore;
+unicode = 95;
+userData = {
+KernOnSpecialSpacing = {
+L = underscore;
+R = underscore;
+};
+};
+}

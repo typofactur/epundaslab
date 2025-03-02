@@ -1,0 +1,78 @@
+{
+glyphname = southEastArrow;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(561,303,l),
+(508,53,l),
+(554,53,l),
+(607,303,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(303,53,l),
+(554,53,l),
+(564,98,l),
+(313,98,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(237,412,l),
+(515,58,l),
+(558,93,l),
+(280,447,l)
+);
+}
+);
+width = 800;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(565,324,l),
+(499,14,l),
+(618,14,l),
+(684,324,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(308,14,l),
+(618,14,l),
+(643,133,l),
+(333,133,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(214,420,l),
+(526,24,l),
+(629,108,l),
+(317,504,l)
+);
+}
+);
+width = 800;
+}
+);
+unicode = 8600;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

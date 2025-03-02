@@ -1,0 +1,27 @@
+{
+glyphname = four.numr;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (53,250);
+ref = four.dnom;
+}
+);
+width = 354;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (53,250);
+ref = four.dnom;
+}
+);
+width = 352;
+}
+);
+metricLeft = four.dnom;
+metricRight = four.dnom;
+}

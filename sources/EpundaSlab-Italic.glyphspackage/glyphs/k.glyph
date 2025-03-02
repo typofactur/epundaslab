@@ -1,0 +1,137 @@
+{
+glyphname = k;
+kernLeft = KO_l;
+kernRight = KO_k;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (187,0);
+},
+{
+name = top;
+pos = (336,700);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(503,500,l),
+(423,500,l),
+(135,250,l),
+(118,170,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(231,700,l),
+(171,700,l),
+(22,0,l),
+(81,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(397,0,l),
+(258,320,l),
+(212,270,l),
+(327,0,l)
+);
+},
+{
+pos = (171,700);
+ref = _serif.I.TL;
+},
+{
+pos = (453,500);
+ref = _serif.I.TR;
+},
+{
+pos = (357,0);
+ref = _serif.I.BR;
+},
+{
+pos = (81,0);
+ref = _serif.I.BR;
+},
+{
+pos = (22,0);
+ref = _serif.I.BL;
+}
+);
+width = 480;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (242,0);
+},
+{
+name = top;
+pos = (391,690);
+}
+);
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(603,500,l),
+(413,500,l),
+(191,280,l),
+(233,150,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(351,700,l),
+(171,700,l),
+(22,0,l),
+(201,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(497,0,l),
+(387,340,l),
+(235,330,l),
+(317,0,l)
+);
+},
+{
+pos = (171,700);
+ref = _serif.I.TL;
+},
+{
+pos = (543,500);
+ref = _serif.I.TR;
+},
+{
+pos = (437,0);
+ref = _serif.I.BR;
+},
+{
+pos = (171,0);
+ref = _serif.I.BR;
+},
+{
+pos = (22,0);
+ref = _serif.I.BL;
+}
+);
+width = 560;
+}
+);
+unicode = 107;
+userData = {
+KernOnName = k;
+};
+}

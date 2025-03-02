@@ -1,0 +1,24 @@
+{
+glyphname = numbersign.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = numbersign;
+}
+);
+width = 600;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = numbersign;
+}
+);
+width = 750;
+}
+);
+unicode = 65283;
+}

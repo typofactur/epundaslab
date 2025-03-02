@@ -1,0 +1,73 @@
+{
+glyphname = bracketright;
+kernLeft = KO_bracketright;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-81,72);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (674,72);
+type = Stem;
+},
+{
+place = (58,184);
+type = Stem;
+},
+{
+place = (160,82);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(209,-55,l),
+(209,722,l),
+(45,722,l),
+(45,667,l),
+(149,667,l),
+(149,0,l),
+(45,0,l),
+(45,-55,l)
+);
+}
+);
+width = 254;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(269,-85,l),
+(269,752,l),
+(25,752,l),
+(25,637,l),
+(129,637,l),
+(129,30,l),
+(25,30,l),
+(25,-85,l)
+);
+}
+);
+width = 284;
+}
+);
+metricRight = "=H";
+note = bracketright;
+unicode = 93;
+userData = {
+KernOnSpecialSpacing = {
+L = parenthesis;
+R = NoKerning;
+};
+};
+}

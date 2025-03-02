@@ -1,0 +1,42 @@
+{
+glyphname = Acircumflexdotbelow;
+kernLeft = KO_A;
+kernRight = KO_A;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (199,0);
+ref = dotbelowcomb;
+},
+{
+pos = (135,167);
+ref = circumflexcomb;
+}
+);
+width = 608;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (205,0);
+ref = dotbelowcomb;
+},
+{
+pos = (159,157);
+ref = circumflexcomb;
+}
+);
+width = 660;
+}
+);
+unicode = 7852;
+}

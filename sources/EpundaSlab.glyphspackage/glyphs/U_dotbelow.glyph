@@ -1,0 +1,34 @@
+{
+glyphname = Udotbelow;
+kernLeft = KO_U;
+kernRight = KO_U;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (252,0);
+ref = dotbelowcomb;
+}
+);
+width = 624;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (222,0);
+ref = dotbelowcomb;
+}
+);
+width = 674;
+}
+);
+unicode = 7908;
+}

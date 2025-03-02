@@ -1,0 +1,34 @@
+{
+glyphname = ddotbelow;
+kernLeft = KO_e;
+kernRight = KO_l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (175,0);
+ref = dotbelowcomb;
+}
+);
+width = 500;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (168,0);
+ref = dotbelowcomb;
+}
+);
+width = 565;
+}
+);
+unicode = 7693;
+}

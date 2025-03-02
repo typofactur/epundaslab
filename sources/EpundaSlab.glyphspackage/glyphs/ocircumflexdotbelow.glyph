@@ -1,0 +1,42 @@
+{
+glyphname = ocircumflexdotbelow;
+kernLeft = KO_ccaron;
+kernRight = KO_o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (175,0);
+ref = dotbelowcomb;
+},
+{
+pos = (75,0);
+ref = circumflexcomb;
+}
+);
+width = 470;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (145,0);
+ref = dotbelowcomb;
+},
+{
+pos = (65,0);
+ref = circumflexcomb;
+}
+);
+width = 520;
+}
+);
+unicode = 7897;
+}

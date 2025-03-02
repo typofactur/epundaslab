@@ -1,0 +1,46 @@
+{
+glyphname = hyphen;
+kernLeft = KO_hyphen;
+kernRight = KO_hyphen;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(77,225,l),
+(363,225,l),
+(374,275,l),
+(88,275,l)
+);
+}
+);
+width = 451;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-5,180,l),
+(361,180,l),
+(390,320,l),
+(24,320,l)
+);
+}
+);
+width = 385;
+}
+);
+metricLeft = "=H";
+metricRight = "=|";
+unicode = 45;
+userData = {
+KernOnSpecialSpacing = {
+L = hyphen;
+R = hyphen;
+};
+};
+}

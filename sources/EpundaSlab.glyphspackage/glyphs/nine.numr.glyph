@@ -1,0 +1,27 @@
+{
+glyphname = nine.numr;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,250);
+ref = nine.dnom;
+}
+);
+width = 308;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,250);
+ref = nine.dnom;
+}
+);
+width = 352;
+}
+);
+metricLeft = nine.dnom;
+metricRight = nine.dnom;
+}

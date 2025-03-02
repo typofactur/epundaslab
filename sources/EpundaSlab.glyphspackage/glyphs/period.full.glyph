@@ -1,0 +1,25 @@
+{
+glyphname = period.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (195,0);
+ref = period;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = period;
+}
+);
+width = 250;
+}
+);
+unicode = 65294;
+}

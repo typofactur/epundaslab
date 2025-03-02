@@ -1,0 +1,28 @@
+{
+glyphname = one;
+kernLeft = KO_one;
+kernRight = KO_one;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = one.osf;
+}
+);
+width = 427;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = one.osf;
+}
+);
+width = 552;
+}
+);
+metricLeft = one.osf;
+metricRight = one.osf;
+unicode = 49;
+}

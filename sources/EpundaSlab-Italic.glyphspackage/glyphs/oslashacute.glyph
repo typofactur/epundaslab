@@ -1,0 +1,33 @@
+{
+glyphname = oslashacute;
+kernLeft = KO_oslash;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = oslash;
+},
+{
+pos = (141,0);
+ref = acutecomb;
+}
+);
+width = 522;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = oslash;
+},
+{
+pos = (108,0);
+ref = acutecomb;
+}
+);
+width = 546;
+}
+);
+unicode = 511;
+}

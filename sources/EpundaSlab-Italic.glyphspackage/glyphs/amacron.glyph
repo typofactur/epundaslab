@@ -1,0 +1,26 @@
+{
+glyphname = amacron;
+kernLeft = KO_a;
+kernRight = KO_a;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = a;
+}
+);
+width = 515;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = a;
+}
+);
+width = 575;
+}
+);
+unicode = 257;
+}

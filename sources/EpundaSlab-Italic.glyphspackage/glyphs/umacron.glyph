@@ -1,0 +1,34 @@
+{
+glyphname = umacron;
+kernLeft = KO_u;
+kernRight = KO_u;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (18,0);
+ref = macroncomb;
+}
+);
+width = 526;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (61,0);
+ref = macroncomb;
+}
+);
+width = 605;
+}
+);
+unicode = 363;
+}

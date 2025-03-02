@@ -1,0 +1,32 @@
+{
+glyphname = Ezhcaron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Ezh;
+},
+{
+pos = (74,137);
+ref = caroncomb;
+}
+);
+width = 468;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = Ezh;
+},
+{
+pos = (45,157);
+ref = caroncomb;
+}
+);
+width = 480;
+}
+);
+unicode = 494;
+}

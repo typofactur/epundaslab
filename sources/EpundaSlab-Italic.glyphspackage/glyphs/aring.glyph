@@ -1,0 +1,34 @@
+{
+glyphname = aring;
+kernLeft = KO_a;
+kernRight = KO_a;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (118,0);
+ref = ringcomb;
+}
+);
+width = 515;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (163,0);
+ref = ringcomb;
+}
+);
+width = 575;
+}
+);
+unicode = 229;
+}

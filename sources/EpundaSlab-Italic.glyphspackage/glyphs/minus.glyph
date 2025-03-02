@@ -1,0 +1,45 @@
+{
+glyphname = minus;
+kernLeft = KO_plus;
+kernRight = KO_plus;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(106,320,l),
+(525,320,l),
+(537,380,l),
+(118,380,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(56,280,l),
+(556,280,l),
+(584,410,l),
+(84,410,l)
+);
+}
+);
+width = 600;
+}
+);
+metricRight = "=|";
+unicode = 8722;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

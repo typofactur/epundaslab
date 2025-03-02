@@ -1,0 +1,20 @@
+{
+glyphname = figurespace;
+layers = (
+{
+layerId = m01;
+width = 551;
+},
+{
+layerId = m002;
+width = 607;
+}
+);
+unicode = 8199;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

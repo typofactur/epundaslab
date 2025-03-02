@@ -1,0 +1,27 @@
+{
+glyphname = seven.numr;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (53,250);
+ref = seven.dnom;
+}
+);
+width = 309;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (53,250);
+ref = seven.dnom;
+}
+);
+width = 347;
+}
+);
+metricLeft = seven.dnom;
+metricRight = seven.dnom;
+}

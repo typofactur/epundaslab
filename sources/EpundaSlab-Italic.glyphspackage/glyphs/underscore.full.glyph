@@ -1,0 +1,24 @@
+{
+glyphname = underscore.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = underscore;
+}
+);
+width = 552;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = underscore;
+}
+);
+width = 558;
+}
+);
+unicode = 65343;
+}

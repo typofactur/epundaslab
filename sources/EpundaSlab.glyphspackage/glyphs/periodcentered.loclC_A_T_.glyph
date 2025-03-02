@@ -1,0 +1,27 @@
+{
+glyphname = periodcentered.loclCAT;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-65,0);
+ref = periodcentered;
+}
+);
+width = 120;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (-135,0);
+ref = periodcentered;
+}
+);
+width = 230;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+}

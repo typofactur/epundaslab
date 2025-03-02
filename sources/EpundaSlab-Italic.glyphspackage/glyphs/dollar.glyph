@@ -1,0 +1,69 @@
+{
+glyphname = dollar;
+kernRight = KO_dollar;
+layers = (
+{
+layerId = m004;
+name = "Black Italic";
+shapes = (
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(371,605,l),
+(400,742,l),
+(280,742,l),
+(251,605,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(137,69,l),
+(106,-75,l),
+(226,-75,l),
+(257,69,l)
+);
+}
+);
+width = 532;
+},
+{
+layerId = m003;
+name = "Light Italic";
+shapes = (
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(330,638,l),
+(352,742,l),
+(292,742,l),
+(270,638,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(138,19,l),
+(118,-75,l),
+(178,-75,l),
+(198,19,l)
+);
+}
+);
+width = 488;
+}
+);
+unicode = 36;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

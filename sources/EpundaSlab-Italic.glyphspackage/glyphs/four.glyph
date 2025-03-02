@@ -1,0 +1,28 @@
+{
+glyphname = four;
+kernLeft = KO_four;
+kernRight = KO_four;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = four.osf;
+}
+);
+width = 510;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = four.osf;
+}
+);
+width = 570;
+}
+);
+metricLeft = four.osf;
+metricRight = four.osf;
+unicode = 52;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = Edotaccent;
+kernLeft = KO_H;
+kernRight = KO_Eacute;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (183,167);
+ref = dotaccentcomb;
+}
+);
+width = 503;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (210,157);
+ref = dotaccentcomb;
+}
+);
+width = 550;
+}
+);
+unicode = 278;
+}

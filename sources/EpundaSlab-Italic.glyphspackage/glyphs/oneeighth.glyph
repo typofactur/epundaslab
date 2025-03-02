@@ -1,0 +1,48 @@
+{
+glyphname = oneeighth;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (278,0);
+ref = fraction;
+},
+{
+pos = (528,0);
+ref = eight.dnom;
+}
+);
+width = 842;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (368,0);
+ref = fraction;
+},
+{
+pos = (618,0);
+ref = eight.dnom;
+}
+);
+width = 969;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 8539;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

@@ -1,0 +1,25 @@
+{
+glyphname = braceleft.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (137,0);
+ref = braceleft;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = braceleft;
+}
+);
+width = 351;
+}
+);
+unicode = 65371;
+}

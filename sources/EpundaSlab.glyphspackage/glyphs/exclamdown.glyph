@@ -1,0 +1,98 @@
+{
+glyphname = exclamdown;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (424,194);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-195,113);
+type = Stem;
+},
+{
+place = (147,114);
+type = Stem;
+},
+{
+place = (134,139);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,-200,l),
+(135,320,l),
+(75,320,l),
+(70,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,418,o),
+(150,438,o),
+(150,463,cs),
+(150,488,o),
+(130,508,o),
+(105,508,cs),
+(80,508,o),
+(60,488,o),
+(60,463,cs),
+(60,438,o),
+(80,418,o),
+(105,418,cs)
+);
+}
+);
+width = 210;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,-200,l),
+(195,250,l),
+(55,250,l),
+(35,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(181,308,o),
+(225,353,o),
+(225,408,cs),
+(225,464,o),
+(181,508,o),
+(125,508,cs),
+(70,508,o),
+(25,464,o),
+(25,408,cs),
+(25,353,o),
+(70,308,o),
+(125,308,cs)
+);
+}
+);
+width = 250;
+}
+);
+metricLeft = "=exclam";
+metricRight = "=|";
+note = exclamdown;
+unicode = 161;
+userData = {
+KernOnSpecialSpacing = {
+R = "spaced-off";
+};
+};
+}

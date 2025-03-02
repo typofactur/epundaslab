@@ -1,0 +1,33 @@
+{
+glyphname = fiveinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = five.dnom;
+}
+);
+width = 314;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,-125);
+ref = five.dnom;
+}
+);
+width = 352;
+}
+);
+metricLeft = five.dnom;
+metricRight = five.dnom;
+unicode = 8325;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

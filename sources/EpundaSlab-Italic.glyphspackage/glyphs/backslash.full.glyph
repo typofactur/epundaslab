@@ -1,0 +1,24 @@
+{
+glyphname = backslash.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = backslash;
+}
+);
+width = 319;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = backslash;
+}
+);
+width = 379;
+}
+);
+unicode = 65340;
+}

@@ -1,0 +1,68 @@
+{
+glyphname = cent;
+layers = (
+{
+layerId = m002;
+name = Black;
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(319,446,l),
+(319,575,l),
+(199,575,l),
+(199,446,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(199,55,l),
+(199,-75,l),
+(319,-75,l),
+(319,55,l)
+);
+}
+);
+width = 463;
+},
+{
+layerId = m01;
+name = Light;
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(275,471,l),
+(275,575,l),
+(220,575,l),
+(220,471,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(220,25,l),
+(220,-75,l),
+(275,-75,l),
+(275,25,l)
+);
+}
+);
+width = 433;
+}
+);
+unicode = 162;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

@@ -1,0 +1,28 @@
+{
+glyphname = eight.numr;
+kernRight = KO_three.numr;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (53,250);
+ref = eight.dnom;
+}
+);
+width = 314;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (53,250);
+ref = eight.dnom;
+}
+);
+width = 351;
+}
+);
+metricLeft = eight.dnom;
+metricRight = eight.dnom;
+}

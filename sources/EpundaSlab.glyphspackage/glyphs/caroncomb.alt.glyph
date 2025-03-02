@@ -1,0 +1,55 @@
+{
+glyphname = caroncomb.alt;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (15,725);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(25,525,l),
+(65,525,l),
+(75,725,l),
+(15,725,l)
+);
+}
+);
+width = 90;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (15,785);
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,525,l),
+(135,525,l),
+(155,785,l),
+(15,785,l)
+);
+}
+);
+width = 160;
+}
+);
+metricLeft = "=i";
+metricRight = "=i";
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

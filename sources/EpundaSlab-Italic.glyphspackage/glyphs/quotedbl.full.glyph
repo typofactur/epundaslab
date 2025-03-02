@@ -1,0 +1,24 @@
+{
+glyphname = quotedbl.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = quotedbl;
+}
+);
+width = 270;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = quotedbl;
+}
+);
+width = 370;
+}
+);
+unicode = 65282;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = underscore.full;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (24,0);
+ref = underscore;
+}
+);
+width = 600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = underscore;
+}
+);
+width = 558;
+}
+);
+unicode = 65343;
+}

@@ -1,0 +1,20 @@
+{
+glyphname = enspace;
+layers = (
+{
+layerId = m003;
+width = 500;
+},
+{
+layerId = m004;
+width = 500;
+}
+);
+unicode = 8194;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

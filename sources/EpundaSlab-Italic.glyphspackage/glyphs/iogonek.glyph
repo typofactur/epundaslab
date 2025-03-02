@@ -1,0 +1,39 @@
+{
+glyphname = iogonek;
+kernLeft = KO_iacute;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = idotless;
+},
+{
+ref = dotaccentcomb;
+},
+{
+pos = (6,0);
+ref = ogonekcomb;
+}
+);
+width = 210;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = idotless;
+},
+{
+ref = dotaccentcomb;
+},
+{
+pos = (61,0);
+ref = ogonekcomb;
+}
+);
+width = 250;
+}
+);
+unicode = 303;
+}

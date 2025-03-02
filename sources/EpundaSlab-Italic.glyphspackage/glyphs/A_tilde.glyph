@@ -1,0 +1,34 @@
+{
+glyphname = Atilde;
+kernLeft = KO_A;
+kernRight = KO_A;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (105,167);
+ref = tildecomb;
+}
+);
+width = 608;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (104,157);
+ref = tildecomb;
+}
+);
+width = 660;
+}
+);
+unicode = 195;
+}

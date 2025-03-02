@@ -1,0 +1,21 @@
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = m01;
+width = 250;
+},
+{
+layerId = m002;
+width = 280;
+}
+);
+metricWidth = space;
+unicode = 160;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

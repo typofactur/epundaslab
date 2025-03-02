@@ -1,0 +1,34 @@
+{
+glyphname = eightsuperior;
+kernLeft = KO_eightsuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = eight.numr;
+}
+);
+width = 308;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,125);
+ref = eight.numr;
+}
+);
+width = 352;
+}
+);
+metricLeft = eight.numr;
+metricRight = eight.numr;
+unicode = 8312;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

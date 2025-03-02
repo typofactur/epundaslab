@@ -1,0 +1,34 @@
+{
+glyphname = ecaron;
+kernLeft = KO_ccaron;
+kernRight = KO_e;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (75,0);
+ref = caroncomb;
+}
+);
+width = 475;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (65,0);
+ref = caroncomb;
+}
+);
+width = 500;
+}
+);
+unicode = 283;
+}

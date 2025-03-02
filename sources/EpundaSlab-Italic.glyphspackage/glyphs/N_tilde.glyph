@@ -1,0 +1,34 @@
+{
+glyphname = Ntilde;
+kernLeft = KO_H;
+kernRight = KO_N;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (102,137);
+ref = tildecomb;
+}
+);
+width = 615;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (119,157);
+ref = tildecomb;
+}
+);
+width = 690;
+}
+);
+unicode = 209;
+}

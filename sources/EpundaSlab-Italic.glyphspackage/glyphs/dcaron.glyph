@@ -1,0 +1,37 @@
+{
+glyphname = dcaron;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = d;
+},
+{
+alignment = -1;
+pos = (454,0);
+ref = caroncomb.alt;
+}
+);
+width = 499;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = d;
+},
+{
+alignment = -1;
+pos = (489,0);
+ref = caroncomb.alt;
+}
+);
+width = 564;
+}
+);
+unicode = 271;
+userData = {
+KernOnName = dcaron;
+};
+}

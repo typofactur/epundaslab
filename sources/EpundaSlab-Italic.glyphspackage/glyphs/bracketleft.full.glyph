@@ -1,0 +1,24 @@
+{
+glyphname = bracketleft.full;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = bracketleft;
+}
+);
+width = 292;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = bracketleft;
+}
+);
+width = 315;
+}
+);
+unicode = 65339;
+}

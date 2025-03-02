@@ -1,0 +1,52 @@
+{
+glyphname = percent;
+kernLeft = KO_percent;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = zero.numr;
+},
+{
+alignment = -1;
+pos = (358,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (531,0);
+ref = zero.dnom;
+}
+);
+width = 898;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+ref = zero.numr;
+},
+{
+alignment = -1;
+pos = (344,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (521,0);
+ref = zero.dnom;
+}
+);
+width = 930;
+}
+);
+unicode = 37;
+userData = {
+KernOnSpecialSpacing = {
+L = "spaced-off";
+};
+};
+}
