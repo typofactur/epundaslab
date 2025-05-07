@@ -10,7 +10,7 @@ shapes = (
 ref = D;
 },
 {
-pos = (59,0);
+pos = (104,0);
 ref = circumflexbelowcomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = D;
 },
 {
-pos = (110,0);
+pos = (121,0);
 ref = circumflexbelowcomb;
 }
 );

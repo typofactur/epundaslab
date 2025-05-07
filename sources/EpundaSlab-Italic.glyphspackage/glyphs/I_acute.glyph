@@ -10,7 +10,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (21,137);
+pos = (66,137);
 ref = acutecomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (40,157);
+pos = (51,157);
 ref = acutecomb;
 }
 );
-width = 342;
+width = 341;
 }
 );
 unicode = 205;

@@ -99,7 +99,7 @@ pos = (351,667);
 ref = _serif.I.TR;
 }
 );
-width = 342;
+width = 341;
 }
 );
 metricLeft = "=H";

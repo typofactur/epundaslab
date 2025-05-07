@@ -10,7 +10,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (126,137);
+pos = (171,137);
 ref = tildecomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (116,157);
+pos = (127,157);
 ref = tildecomb;
 }
 );

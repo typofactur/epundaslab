@@ -44,7 +44,7 @@ pos = (144,667);
 ref = _serif.T.TL;
 }
 );
-width = 520;
+width = 505;
 },
 {
 anchors = (
@@ -87,7 +87,7 @@ pos = (119,667);
 ref = _serif.T.TL;
 }
 );
-width = 560;
+width = 535;
 }
 );
 metricRight = "=|";

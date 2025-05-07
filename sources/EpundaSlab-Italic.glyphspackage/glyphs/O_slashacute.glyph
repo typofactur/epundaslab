@@ -8,7 +8,7 @@ shapes = (
 ref = Oslash;
 },
 {
-pos = (241,137);
+pos = (286,137);
 ref = acutecomb;
 }
 );
@@ -21,7 +21,7 @@ shapes = (
 ref = Oslash;
 },
 {
-pos = (217,157);
+pos = (228,157);
 ref = acutecomb;
 }
 );
