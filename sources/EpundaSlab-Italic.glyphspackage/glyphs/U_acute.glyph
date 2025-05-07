@@ -10,7 +10,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (218,137);
+pos = (263,137);
 ref = acutecomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (178,157);
+pos = (189,157);
 ref = acutecomb;
 }
 );

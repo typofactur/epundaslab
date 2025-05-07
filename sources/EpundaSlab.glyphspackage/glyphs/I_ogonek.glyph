@@ -23,11 +23,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (107,0);
+pos = (112,0);
 ref = ogonekcomb;
 }
 );
-width = 342;
+width = 352;
 }
 );
 unicode = 302;

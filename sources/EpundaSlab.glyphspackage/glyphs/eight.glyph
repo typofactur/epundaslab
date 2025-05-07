@@ -10,7 +10,7 @@ shapes = (
 ref = eight.osf;
 }
 );
-width = 428;
+width = 435;
 },
 {
 layerId = m002;
@@ -19,7 +19,7 @@ shapes = (
 ref = eight.osf;
 }
 );
-width = 506;
+width = 507;
 }
 );
 metricLeft = eight.osf;

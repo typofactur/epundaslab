@@ -96,7 +96,7 @@ nodes = (
 );
 }
 );
-width = 700;
+width = 703;
 },
 {
 layerId = m004;
@@ -192,7 +192,7 @@ nodes = (
 );
 }
 );
-width = 700;
+width = 703;
 }
 );
 metricRight = "=n";

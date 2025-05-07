@@ -10,7 +10,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-49,137);
+pos = (-4,137);
 ref = gravecomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (50,157);
+pos = (61,157);
 ref = gravecomb;
 }
 );
-width = 342;
+width = 341;
 }
 );
 unicode = 204;

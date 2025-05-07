@@ -8,11 +8,11 @@ shapes = (
 ref = Ezh;
 },
 {
-pos = (49,137);
+pos = (67,137);
 ref = caroncomb;
 }
 );
-width = 463;
+width = 414;
 },
 {
 layerId = m004;
@@ -21,11 +21,11 @@ shapes = (
 ref = Ezh;
 },
 {
-pos = (59,157);
+pos = (62,157);
 ref = caroncomb;
 }
 );
-width = 476;
+width = 455;
 }
 );
 unicode = 494;

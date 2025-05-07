@@ -69,7 +69,7 @@ pos = (-70,-200);
 ref = _serif.S.BL;
 }
 );
-width = 466;
+width = 465;
 },
 {
 anchors = (

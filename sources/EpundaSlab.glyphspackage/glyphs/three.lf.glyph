@@ -82,7 +82,7 @@ pos = (15,36);
 ref = _serif.s.BL;
 }
 );
-width = 446;
+width = 453;
 },
 {
 layerId = m002;
@@ -163,7 +163,7 @@ pos = (5,36);
 ref = _serif.s.BL;
 }
 );
-width = 515;
+width = 516;
 }
 );
 metricRight = "=B";

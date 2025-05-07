@@ -8,7 +8,7 @@ shapes = (
 ref = M.salt;
 },
 {
-pos = (310,167);
+pos = (355,167);
 ref = acutecomb;
 }
 );
@@ -21,7 +21,7 @@ shapes = (
 ref = M.salt;
 },
 {
-pos = (271,167);
+pos = (282,167);
 ref = acutecomb;
 }
 );

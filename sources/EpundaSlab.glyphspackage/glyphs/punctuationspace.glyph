@@ -3,11 +3,11 @@ glyphname = punctuationspace;
 layers = (
 {
 layerId = m01;
-width = 210;
+width = 120;
 },
 {
 layerId = m002;
-width = 250;
+width = 230;
 }
 );
 metricWidth = period;

@@ -10,7 +10,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (36,137);
+pos = (81,137);
 ref = dotaccentcomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (80,157);
+pos = (91,157);
 ref = dotaccentcomb;
 }
 );
-width = 342;
+width = 341;
 }
 );
 unicode = 304;
