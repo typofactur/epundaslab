@@ -92,7 +92,7 @@ pos = (22,0);
 ref = _serif.I.BL;
 }
 );
-width = 516;
+width = 501;
 },
 {
 anchors = (

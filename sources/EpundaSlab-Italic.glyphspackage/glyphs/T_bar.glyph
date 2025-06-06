@@ -8,7 +8,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (76,84);
+pos = (121,84);
 ref = strokeshortcomb;
 }
 );
@@ -21,7 +21,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (89,84);
+pos = (100,84);
 ref = strokeshortcomb;
 }
 );

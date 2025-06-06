@@ -10,7 +10,7 @@ shapes = (
 ref = d;
 },
 {
-pos = (241,327);
+pos = (286,327);
 ref = strokeshortcomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = d;
 },
 {
-pos = (251,330);
+pos = (262,330);
 ref = strokeshortcomb;
 }
 );

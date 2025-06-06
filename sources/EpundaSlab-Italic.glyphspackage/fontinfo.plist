@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3410";
 .formatVersion = 3;
 axes = (
 {
@@ -8,10 +8,6 @@ tag = wght;
 }
 );
 customParameters = (
-{
-name = "Name Table Entry";
-value = "13; This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
-},
 {
 name = fsType;
 value = (
@@ -469,11 +465,11 @@ value = a;
 },
 {
 name = typoAscender;
-value = 1015;
+value = 985;
 },
 {
 name = typoDescender;
-value = -315;
+value = -316;
 },
 {
 name = typoLineGap;
@@ -481,11 +477,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1015;
+value = 985;
 },
 {
 name = hheaDescender;
-value = -315;
+value = -316;
 },
 {
 name = hheaLineGap;
@@ -619,6 +615,38 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = a;
+},
+{
+name = typoAscender;
+value = 985;
+},
+{
+name = typoDescender;
+value = -316;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 985;
+},
+{
+name = hheaDescender;
+value = -316;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1057;
+},
+{
+name = winDescent;
+value = 430;
 }
 );
 iconName = Light;
@@ -848,16 +876,6 @@ weightClass = 900;
 );
 kerningLTR = {
 m003 = {
-P = {
-A = -70;
-};
-X = {
-X = 0;
-};
-N = {
-H = 0;
-O = -10;
-};
 A = {
 C = -30;
 G = -40;
@@ -867,20 +885,35 @@ V = -40;
 W = -60;
 Y = -50;
 };
-y = {
-g = -10;
-};
-V = {
-A = -60;
-V = 0;
-a = -40;
-adieresis = -20;
-e = -60;
-o = -40;
-odieresis = -30;
-};
 D = {
 A = -40;
+};
+F = {
+u = -20;
+};
+L = {
+a = -10;
+periodcentered.loclCAT.case = -90;
+};
+Lcaron = {
+b = 20;
+h = 20;
+l = 20;
+};
+N = {
+H = 0;
+O = -10;
+};
+O = {
+A = -40;
+H = 0;
+O = 40;
+};
+P = {
+A = -70;
+};
+Q = {
+A = -30;
 };
 T = {
 A = -60;
@@ -897,37 +930,17 @@ u = -70;
 udieresis = -70;
 y = -60;
 };
-Lcaron = {
-b = 20;
-h = 20;
-l = 20;
+U = {
+N = 0;
 };
-n = {
-n = 0;
-o = -10;
-};
-F = {
-u = -20;
-};
-germandbls = {
-n = 0;
-};
-lcaron = {
-b = 40;
-h = 40;
-};
-Y = {
-A = -50;
-adieresis = -30;
-e = -40;
+V = {
+A = -60;
+V = 0;
+a = -40;
+adieresis = -20;
+e = -60;
 o = -40;
 odieresis = -30;
-};
-tcaron = {
-b = 40;
-h = 50;
-k = 30;
-l = 50;
 };
 W = {
 A = -60;
@@ -937,57 +950,59 @@ e = -20;
 o = -20;
 odieresis = -20;
 };
-l = {
-l = 0;
+X = {
+X = 0;
 };
-U = {
-N = 0;
+Y = {
+A = -50;
+adieresis = -30;
+e = -40;
+o = -40;
+odieresis = -30;
 };
 dcaron = {
 b = 40;
 h = 40;
 t = 0;
 };
-O = {
-A = -40;
-H = 0;
-O = 40;
-};
 f = {
 i = 1;
 l = 30;
 };
-u = {
-p = -10;
+germandbls = {
+n = 0;
 };
-Q = {
-A = -30;
+l = {
+l = 0;
 };
-L = {
-a = -10;
-periodcentered.loclCAT.case = -90;
+lcaron = {
+b = 40;
+h = 40;
 };
-z = {
-z = -35;
+n = {
+n = 0;
+o = -10;
 };
 p = {
 n = 0;
 };
+tcaron = {
+b = 40;
+h = 50;
+k = 30;
+l = 50;
+};
+u = {
+p = -10;
+};
+y = {
+g = -10;
+};
+z = {
+z = -35;
+};
 };
 m004 = {
-P = {
-A = -100;
-};
-v = {
-n = 0;
-};
-X = {
-X = 0;
-};
-N = {
-H = 0;
-O = -30;
-};
 A = {
 C = -30;
 G = -40;
@@ -997,22 +1012,45 @@ V = -40;
 W = -80;
 Y = -100;
 };
-y = {
-g = -10;
-};
-V = {
-A = -60;
-V = 0;
-a = -60;
-adieresis = -20;
-c = -80;
-e = -60;
-o = -40;
-odieresis = -30;
-};
 D = {
 A = -40;
 H = -30;
+};
+F = {
+u = -20;
+};
+H = {
+N = 0;
+O = -40;
+U = -1;
+};
+I = {
+b = 20;
+};
+L = {
+a = -10;
+periodcentered.loclCAT.case = -170;
+};
+Lcaron = {
+b = 50;
+h = 20;
+k = 20;
+l = 20;
+};
+N = {
+H = 0;
+O = -30;
+};
+O = {
+A = -40;
+H = 0;
+O = 40;
+};
+P = {
+A = -100;
+};
+Q = {
+A = -30;
 };
 T = {
 A = -60;
@@ -1029,47 +1067,18 @@ u = -70;
 udieresis = -70;
 y = -60;
 };
-Lcaron = {
-b = 50;
-h = 20;
-k = 20;
-l = 20;
+U = {
+N = 0;
 };
-n = {
-n = 0;
-o = -10;
-t = -45;
-u = -45;
-v = -30;
-w = -30;
-};
-F = {
-u = -20;
-};
-germandbls = {
-n = 0;
-};
-lcaron = {
-b = 120;
-h = 80;
-k = 90;
-l = 90;
-t = 20;
-};
-Y = {
-A = -70;
-adieresis = -30;
-e = -80;
+V = {
+A = -60;
+V = 0;
+a = -60;
+adieresis = -20;
+c = -80;
+e = -60;
 o = -40;
 odieresis = -30;
-};
-tcaron = {
-b = 130;
-f = 30;
-h = 100;
-k = 100;
-l = 100;
-t = 50;
 };
 W = {
 A = -80;
@@ -1079,16 +1088,15 @@ e = -80;
 o = -80;
 odieresis = -20;
 };
-l = {
-l = 0;
+X = {
+X = 0;
 };
-H = {
-N = 0;
-O = -40;
-U = -1;
-};
-U = {
-N = 0;
+Y = {
+A = -70;
+adieresis = -30;
+e = -80;
+o = -40;
+odieresis = -30;
 };
 dcaron = {
 b = 110;
@@ -1097,40 +1105,60 @@ k = 80;
 l = 80;
 t = 10;
 };
-O = {
-A = -40;
-H = 0;
-O = 40;
-};
 f = {
 i = 10;
 l = 90;
 n = 0;
 };
-u = {
-p = -10;
+germandbls = {
+n = 0;
+};
+l = {
+l = 0;
+};
+lcaron = {
+b = 120;
+h = 80;
+k = 90;
+l = 90;
+t = 20;
+};
+n = {
+n = 0;
+o = -10;
+t = -45;
+u = -45;
+v = -30;
+w = -30;
 };
 o = {
 o = 0;
 };
-Q = {
-A = -30;
-};
-L = {
-a = -10;
-periodcentered.loclCAT.case = -170;
-};
-I = {
-b = 20;
-};
-z = {
-z = 0;
+p = {
+n = 0;
 };
 s = {
 colon = -10;
 };
-p = {
+tcaron = {
+b = 130;
+f = 30;
+h = 100;
+k = 100;
+l = 100;
+t = 50;
+};
+u = {
+p = -10;
+};
+v = {
 n = 0;
+};
+y = {
+g = -10;
+};
+z = {
+z = 0;
 };
 };
 };
@@ -1173,7 +1201,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "SIL Open Font License, Version 1.1. ";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
@@ -1228,5 +1256,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.34";
 };
 versionMajor = 1;
-versionMinor = 102;
+versionMinor = 103;
 }
