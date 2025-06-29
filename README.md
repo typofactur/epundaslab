@@ -72,6 +72,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - Dcroat = Eth
 - kerning with Kern On
 
+**29 June 2025. Version 2.205**
+- lozenge added
+- .notdef added
+
 
 ## License
 
