@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 1.0.0
+fontbakery version: 1.0.1
 
 
 
@@ -12,8 +12,40 @@ fontbakery version: 1.0.0
 
 
 
-<details><summary>[6] EpundaSlab-Italic[wght].ttf</summary>
+<details><summary>[8] EpundaSlab-Italic[wght].ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+004B: LATIN CAPITAL LETTER K</td>
+<td align="left">U+006B: LATIN SMALL LETTER K</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
     <div>
@@ -38,7 +70,15 @@ fontbakery version: 1.0.0
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɛ, ɲ, Ɛ, ɔ, Ɔ, Ɲ</td>
+<td align="left">The following base characters are missing from the font: k</td>
+<td align="left">ca_Latn (Catalan), cs_Latn (Czech), da_Latn (Danish), de_Latn (German), en_Latn (English), es_Latn (Spanish), fi_Latn (Finnish), fr_Latn (French), hr_Latn (Croatian), hu_Latn (Hungarian), is_Latn (Icelandic), it_Latn (Italian), lt_Latn (Lithuanian), lv_Latn (Latvian), mt_Latn (Maltese), nb_Latn (Norwegian Bokmål), nl_Latn (Dutch), pl_Latn (Polish), pt_Latn (Portuguese), ro_Latn (Romanian), sk_Latn (Slovak), sq_Latn (Albanian), sr_Latn (Serbian (Latin)), sv_Latn (Swedish), tr_Latn (Turkish), af_Latn (Afrikaans), lg_Latn (Ganda), om_Latn (Oromo), sw_Latn (Swahili) and xh_Latn (Xhosa)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ɲ, Ɛ, ɔ, k, ɲ, ɛ, Ɔ</td>
 <td align="left">bm_Latn (Bambara)</td>
 </tr>
 <tr>
@@ -46,7 +86,7 @@ fontbakery version: 1.0.0
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ɲ, ɛ, Ɔ, ɲ, ɔ, Ɛ</td>
+<td align="left">The following base characters are missing from the font: Ɔ, Ɲ, ɲ, Ɛ, k, ɛ, ɔ</td>
 <td align="left">dyu_Latn (Dyula)</td>
 </tr>
 <tr>
@@ -54,7 +94,7 @@ fontbakery version: 1.0.0
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɛ, ɔ, Ɛ, Ɔ</td>
+<td align="left">The following base characters are missing from the font: Ɛ, ɔ, Ɔ, k, ɛ</td>
 <td align="left">fat_Latn (Fanti)</td>
 </tr>
 <tr>
@@ -62,7 +102,7 @@ fontbakery version: 1.0.0
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ɓ, Ɗ, Ƴ, ɓ, ƴ, ɗ</td>
+<td align="left">The following base characters are missing from the font: ƴ, Ƴ, ɗ, ɓ, Ɓ, k, Ɗ</td>
 <td align="left">ff_Latn (Fulah)</td>
 </tr>
 <tr>
@@ -70,7 +110,7 @@ fontbakery version: 1.0.0
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɗ, Ƴ, ƴ, ɓ, Ɗ, Ɓ, Ƙ, ƙ</td>
+<td align="left">The following base characters are missing from the font: Ɗ, Ƴ, k, ɓ, ɗ, Ɓ, ƙ, Ƙ, ƴ</td>
 <td align="left">ha_Latn (Hausa)</td>
 </tr>
 <tr>
@@ -78,7 +118,15 @@ fontbakery version: 1.0.0
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ɛ, ɔ, Ɔ, ɛ</td>
+<td align="left">The following base characters are missing from the font: k, kp, kw</td>
+<td align="left">ig_Latn (Igbo)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ɛ, Ɔ, ɔ, ɛ, k</td>
 <td align="left">tw_akuapem_Latn (Akuapem Twi)</td>
 </tr>
 <tr>
@@ -86,8 +134,20 @@ fontbakery version: 1.0.0
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">The following base characters are missing from the font: k</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">The following mark characters are missing from the font: ̩</td>
 <td align="left">yo_Latn (Yoruba)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: kp, nkc, k, nk, nkq, kl, kh, nkx</td>
+<td align="left">zu_Latn (Zulu)</td>
 </tr>
 </tbody>
 </table>
@@ -115,6 +175,14 @@ fontbakery version: 1.0.0
 <tr>
 <td align="left">The following auxiliary characters are missing from the font: ŀ</td>
 <td align="left">ca_Latn (Catalan)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: k</td>
+<td align="left">cy_Latn (Welsh)</td>
 </tr>
 <tr>
 <td align="left">Auxiliary orthography codepoints:</td>
@@ -255,6 +323,26 @@ fontbakery version: 1.0.0
 </tbody>
 </table>
  [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Missing required codepoints:</p>
+<pre><code>- 0x006B (LATIN SMALL LETTER K)
+</code></pre>
+ [code: missing-codepoints]
 
 
 
@@ -498,7 +586,7 @@ fontbakery version: 1.0.0
 
 * uni01CE (U+01CE): L&lt;&lt;305.0,508.0&gt;--&lt;293.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni01CE (U+01CE): L&lt;&lt;359.0,560.0&gt;--&lt;289.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+* uni01CE (U+01CE): L&lt;&lt;351.0,560.0&gt;--&lt;281.0,560.0&gt;&gt; has the same coordinates as a previous segment.
 
 * acircumflex (U+00E2): L&lt;&lt;478.0,430.0&gt;--&lt;420.0,440.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -506,7 +594,7 @@ fontbakery version: 1.0.0
 
 * acircumflex (U+00E2): L&lt;&lt;305.0,508.0&gt;--&lt;293.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
-* acircumflex (U+00E2): L&lt;&lt;319.0,700.0&gt;--&lt;389.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+* acircumflex (U+00E2): L&lt;&lt;311.0,700.0&gt;--&lt;381.0,700.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1EAD (U+1EAD): L&lt;&lt;478.0,430.0&gt;--&lt;420.0,440.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -514,7 +602,7 @@ fontbakery version: 1.0.0
 
 * uni1EAD (U+1EAD): L&lt;&lt;305.0,508.0&gt;--&lt;293.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni1EAD (U+1EAD): L&lt;&lt;319.0,700.0&gt;--&lt;389.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+* uni1EAD (U+1EAD): L&lt;&lt;311.0,700.0&gt;--&lt;381.0,700.0&gt;&gt; has the same coordinates as a previous segment.
 
 * adieresis (U+00E4): L&lt;&lt;478.0,430.0&gt;--&lt;420.0,440.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -564,11 +652,9 @@ fontbakery version: 1.0.0
 
 * ae (U+00E6): L&lt;&lt;372.0,305.0&gt;--&lt;420.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
-* ae (U+00E6): L&lt;&lt;360.0,250.0&gt;--&lt;415.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+* ae (U+00E6): L&lt;&lt;492.0,48.0&gt;--&lt;480.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
-* ae (U+00E6): L&lt;&lt;522.0,48.0&gt;--&lt;510.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* ae (U+00E6): L&lt;&lt;608.0,453.0&gt;--&lt;620.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+* ae (U+00E6): L&lt;&lt;420.0,250.0&gt;--&lt;360.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
 * b (U+0062): L&lt;&lt;37.0,70.0&gt;--&lt;95.0,60.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -702,65 +788,29 @@ fontbakery version: 1.0.0
 
 * g (U+0067): L&lt;&lt;305.0,508.0&gt;--&lt;293.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gbreve (U+011F): L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+* gbreve (U+011F): L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gbreve (U+011F): L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+* gcaron (U+01E7): L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gbreve (U+011F): L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* gcaron (U+01E7): L&lt;&lt;306.0,560.0&gt;--&lt;236.0,560.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gbreve (U+011F): L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* gcircumflex (U+011D): L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+* gcircumflex (U+011D): L&lt;&lt;266.0,700.0&gt;--&lt;336.0,700.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0123 (U+0123): L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* gdotaccent (U+0121): L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* uni1E21 (U+1E21): L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;336.0,560.0&gt;--&lt;266.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+* uni01E5 (U+01E5): L&lt;&lt;340.0,60.0&gt;--&lt;402.0,70.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcircumflex (U+011D): L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+* uni01E5 (U+01E5): L&lt;&lt;479.0,430.0&gt;--&lt;421.0,440.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcircumflex (U+011D): L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+* uni01E5 (U+01E5): L&lt;&lt;207.0,47.0&gt;--&lt;195.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcircumflex (U+011D): L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gcircumflex (U+011D): L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gcircumflex (U+011D): L&lt;&lt;296.0,700.0&gt;--&lt;366.0,700.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0123 (U+0123): L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0123 (U+0123): L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0123 (U+0123): L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0123 (U+0123): L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gdotaccent (U+0121): L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gdotaccent (U+0121): L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gdotaccent (U+0121): L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gdotaccent (U+0121): L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni1E21 (U+1E21): L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni1E21 (U+1E21): L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni1E21 (U+1E21): L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni1E21 (U+1E21): L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni01E5 (U+01E5): L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni01E5 (U+01E5): L&lt;&lt;463.0,430.0&gt;--&lt;405.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni01E5 (U+01E5): L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni01E5 (U+01E5): L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* uni01E5 (U+01E5): L&lt;&lt;305.0,508.0&gt;--&lt;293.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
 * h (U+0068): L&lt;&lt;380.0,250.0&gt;--&lt;440.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -998,41 +1048,179 @@ fontbakery version: 1.0.0
 
 * uni0146.loclMAH: L&lt;&lt;391.0,250.0&gt;--&lt;451.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
-* a.salt: L&lt;&lt;463.0,430.0&gt;--&lt;405.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+* a.salt: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
 
-* a.salt: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* a.salt: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
 
-* a.salt: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* a.salt: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
-* e.salt: L&lt;&lt;162.0,48.0&gt;--&lt;150.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* e.salt: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
 
-* e.salt: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+* e.salt: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* e.salt: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
 
 * g.salt: L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.salt2: L&lt;&lt;340.0,60.0&gt;--&lt;402.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+* a.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.salt2: L&lt;&lt;479.0,430.0&gt;--&lt;421.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+* a.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.salt2: L&lt;&lt;207.0,47.0&gt;--&lt;195.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* a.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.salt2: L&lt;&lt;305.0,508.0&gt;--&lt;293.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* aacute.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
 
-* a.ss01: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* aacute.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
 
-* a.ss01: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* aacute.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.ss01: L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+* abreve.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.ss01: L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+* abreve.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.ss01: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* abreve.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.ss01: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* uni01CE.ss01: L&lt;&lt;351.0,560.0&gt;--&lt;281.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss01: L&lt;&lt;311.0,700.0&gt;--&lt;381.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss01: L&lt;&lt;311.0,700.0&gt;--&lt;381.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* g.ss01: L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss01: L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss01: L&lt;&lt;336.0,560.0&gt;--&lt;266.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss01: L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss01: L&lt;&lt;296.0,700.0&gt;--&lt;366.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss01: L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss01: L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss01: L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss01: L&lt;&lt;125.0,-153.0&gt;--&lt;113.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
 * a.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
 * a.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aacute.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aacute.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* abreve.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* abreve.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss02: L&lt;&lt;351.0,560.0&gt;--&lt;281.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss02: L&lt;&lt;311.0,700.0&gt;--&lt;381.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss02: L&lt;&lt;311.0,700.0&gt;--&lt;381.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
 * b.ss02: L&lt;&lt;37.0,70.0&gt;--&lt;95.0,60.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -1048,9 +1236,165 @@ fontbakery version: 1.0.0
 
 * g.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
+* gbreve.ss02: L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss02: L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;336.0,560.0&gt;--&lt;266.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;296.0,700.0&gt;--&lt;366.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss02: L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss02: L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss02: L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss02: L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss02: L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss02: L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss02: L&lt;&lt;325.0,60.0&gt;--&lt;387.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss02: L&lt;&lt;464.0,430.0&gt;--&lt;406.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss02: L&lt;&lt;192.0,47.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
 * q.ss02: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
 * q.ss02: L&lt;&lt;290.0,508.0&gt;--&lt;278.0,453.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;268.0,452.0&gt;--&lt;280.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;175.0,-8.0&gt;--&lt;187.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;372.0,305.0&gt;--&lt;420.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;360.0,250.0&gt;--&lt;415.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;522.0,48.0&gt;--&lt;510.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;608.0,453.0&gt;--&lt;620.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* e.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* e.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* e.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eacute.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eacute.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eacute.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecaron.ss03: L&lt;&lt;335.0,560.0&gt;--&lt;265.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecaron.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecaron.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecaron.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0229.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0229.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0229.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecircumflex.ss03: L&lt;&lt;295.0,700.0&gt;--&lt;365.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecircumflex.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecircumflex.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecircumflex.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC7.ss03: L&lt;&lt;295.0,700.0&gt;--&lt;365.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC7.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC7.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC7.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edieresis.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edieresis.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edieresis.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edotaccent.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edotaccent.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edotaccent.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB9.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB9.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB9.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* egrave.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* egrave.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* egrave.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* emacron.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* emacron.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* emacron.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eogonek.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eogonek.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eogonek.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBD.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBD.ss03: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBD.ss03: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni03A9 (U+03A9): L&lt;&lt;224.0,60.0&gt;--&lt;211.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -1207,28 +1551,6 @@ fontbakery version: 1.0.0
 * circumflex (U+02C6): L&lt;&lt;221.0,700.0&gt;--&lt;291.0,700.0&gt;&gt; has the same coordinates as a previous segment.
 
 * caron (U+02C7): L&lt;&lt;261.0,560.0&gt;--&lt;191.0,560.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.BRACKET.varAlt01: L&lt;&lt;268.0,452.0&gt;--&lt;280.0,508.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.BRACKET.varAlt01: L&lt;&lt;175.0,-8.0&gt;--&lt;187.0,47.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.BRACKET.varAlt01: L&lt;&lt;372.0,305.0&gt;--&lt;420.0,250.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.salt.BRACKET.varAlt01: L&lt;&lt;253.0,452.0&gt;--&lt;265.0,508.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.salt.BRACKET.varAlt01: L&lt;&lt;160.0,-8.0&gt;--&lt;172.0,47.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.salt.BRACKET.varAlt01: L&lt;&lt;357.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
-
-* e.BRACKET.varAlt01: L&lt;&lt;30.0,250.0&gt;--&lt;85.0,225.0&gt;&gt; has the same coordinates as a previous segment.
-
-* e.BRACKET.varAlt01: L&lt;&lt;192.0,48.0&gt;--&lt;180.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* e.BRACKET.varAlt01: L&lt;&lt;278.0,453.0&gt;--&lt;290.0,508.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.BRACKET.varAlt01: L&lt;&lt;140.0,-153.0&gt;--&lt;128.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.salt2.BRACKET.varAlt01: L&lt;&lt;140.0,-153.0&gt;--&lt;128.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -1274,21 +1596,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, todhri, tifinagh, canadian-aboriginal, syriac, old-permic, malayalam, hebrew, coptic, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, math, hebrew, malayalam, canadian-aboriginal, duployan, tifinagh, tai-le, syriac, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, tifinagh, syriac, caucasian-albanian, cherokee, sunuwar, gothic</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, cherokee, tifinagh, thai, syriac, gothic, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -1317,12 +1639,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bhaiksuki, rejang, tifinagh, limbu, sogdian, hatran, syriac, dogra, grantha, gujarati, tai-tham, myanmar, warang-citi, hanifi-rohingya, sharada, khudawadi, cham, tamil, buginese, sinhala, avestan, thai, bengali, javanese, oriya, newa, malayalam, kharoshthi, gunjala-gondi, lepcha, pahawh-hmong, psalter-pahlavi, kaithi, nko, saurashtra, syloti-nagri, duployan, takri, batak, siddham, buhid, tibetan, meetei-mayek, lao, chakma, mahajani, yi, kannada, hebrew, khmer, devanagari, thaana, masaram-gondi, gurmukhi, manichaean, brahmi, phags-pa, tai-le, new-tai-lue, hanunoo, mongolian, sundanese, tagalog, zanabazar-square, tagbanwa, telugu, mandaic, tai-viet, balinese, modi, khojki, tirhuta, kayah-li, arabic</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bhaiksuki, rejang, tifinagh, limbu, sogdian, syriac, dogra, grantha, gujarati, tai-tham, myanmar, warang-citi, hanifi-rohingya, sharada, khudawadi, cham, tamil, buginese, sinhala, avestan, thai, bengali, javanese, oriya, newa, malayalam, kharoshthi, gunjala-gondi, lepcha, pahawh-hmong, psalter-pahlavi, kaithi, nko, saurashtra, syloti-nagri, duployan, takri, batak, siddham, buhid, tibetan, meetei-mayek, lao, chakma, mahajani, yi, kannada, hebrew, khmer, devanagari, old-hungarian, thaana, masaram-gondi, gurmukhi, manichaean, brahmi, phags-pa, tai-le, new-tai-lue, hanunoo, mongolian, sundanese, tagalog, zanabazar-square, tagbanwa, telugu, mandaic, tai-viet, balinese, modi, khojki, tirhuta, kayah-li, arabic</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, hebrew, thaana, phags-pa, nko, arabic</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, hebrew, thaana, phags-pa, nko</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: siddham, lao, javanese, sogdian, kharoshthi, hebrew, zanabazar-square, telugu, tagbanwa, khudawadi, hanunoo, gunjala-gondi, syriac, thai, balinese, tirhuta, brahmi, pahawh-hmong, dogra, mahajani, sundanese, sinhala, bengali, tagalog, takri, malayalam, nko, gurmukhi, cham, buhid, tai-tham, khmer, manichaean, myanmar, tibetan, bhaiksuki, devanagari, phags-pa, mandaic, tamil, kayah-li, oriya, yi, grantha, batak, warang-citi, limbu, tai-viet, lepcha, tifinagh, tai-le, thaana, hanifi-rohingya, chakma, gujarati, kaithi, rejang, saurashtra, mongolian, sharada, duployan, new-tai-lue, arabic, avestan, meetei-mayek, modi, newa, psalter-pahlavi, kannada, buginese, khojki, hatran, syloti-nagri, masaram-gondi</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: siddham, lao, javanese, sogdian, kharoshthi, hebrew, zanabazar-square, telugu, tagbanwa, khudawadi, hanunoo, gunjala-gondi, syriac, thai, balinese, tirhuta, brahmi, pahawh-hmong, dogra, mahajani, sundanese, sinhala, bengali, tagalog, takri, malayalam, nko, gurmukhi, cham, buhid, tai-tham, khmer, manichaean, myanmar, tibetan, bhaiksuki, devanagari, phags-pa, mandaic, tamil, kayah-li, oriya, yi, grantha, batak, warang-citi, limbu, tai-viet, lepcha, tifinagh, tai-le, thaana, hanifi-rohingya, chakma, old-hungarian, gujarati, kaithi, rejang, saurashtra, mongolian, sharada, duployan, new-tai-lue, arabic, avestan, meetei-mayek, modi, newa, psalter-pahlavi, kannada, buginese, khojki, syloti-nagri, masaram-gondi</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, thaana, hebrew, nko, arabic, syriac</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, nko, thaana</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -1346,19 +1668,19 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, yi, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -1366,9 +1688,9 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: sogdian, grantha, hanifi-rohingya, tamil, buginese, javanese, saurashtra, syloti-nagri, duployan, tibetan, mahajani, old-permic, hebrew, devanagari, thaana, gurmukhi, phags-pa, wancho, hanunoo, sundanese, caucasian-albanian, bassa-vah, tai-viet, balinese, ahom, tai-tham, myanmar, sharada, coptic, cham, canadian-aboriginal, oriya, newa, adlam, takri, soyombo, batak, buhid, meetei-mayek, khmer, masaram-gondi, brahmi, miao, tai-le, new-tai-lue, telugu, modi, khojki, tirhuta, zanabazar-square, rejang, tifinagh, limbu, dogra, gujarati, khudawadi, thai, bengali, malayalam, mende-kikakui, lepcha, psalter-pahlavi, math, mongolian, armenian, mandaic, kayah-li, symbols, bhaiksuki, syriac, elbasan, warang-citi, sinhala, kharoshthi, gunjala-gondi, pahawh-hmong, kaithi, nko, osage, siddham, music, lao, chakma, yi, kannada, manichaean, tagalog, marchen, tagbanwa</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, japanese, chinese-simplified, chinese-traditional, phags-pa, nushu</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: lao, symbols, old-permic, sundanese, bengali, malayalam, canadian-aboriginal, cham, khmer, miao, tibetan, phags-pa, tamil, tai-viet, tifinagh, tai-le, soyombo, gujarati, mongolian, osage, duployan, thai, khojki, coptic, sogdian, khudawadi, hanunoo, balinese, brahmi, caucasian-albanian, pahawh-hmong, mahajani, sinhala, tagalog, takri, gurmukhi, buhid, oriya, yi, limbu, hanifi-rohingya, rejang, armenian, kannada, buginese, syloti-nagri, tagbanwa, masaram-gondi, javanese, kharoshthi, hebrew, zanabazar-square, telugu, ahom, manichaean, bhaiksuki, devanagari, mandaic, math, kayah-li, marchen, wancho, thaana, chakma, saurashtra, mende-kikakui, new-tai-lue, meetei-mayek, newa, siddham, elbasan, gunjala-gondi, syriac, tirhuta, dogra, nko, tai-tham, myanmar, adlam, grantha, batak, warang-citi, music, lepcha, bassa-vah, kaithi, sharada, psalter-pahlavi, modi</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: phags-pa, chinese-traditional, chinese-simplified, yi, japanese, chinese-hongkong, nushu</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
@@ -1392,8 +1714,8 @@ definitions.</p>
 <li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
 <li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
-<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, yi, japanese, math</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, yi, japanese, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -1449,7 +1771,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɲ, ɔ, Ɛ, Ɲ, Ɔ, ɛ</td>
+<td align="left">The following base characters are missing from the font: ɔ, Ɲ, Ɛ, ɛ, Ɔ, ɲ</td>
 <td align="left">bm_Latn (Bambara)</td>
 </tr>
 <tr>
@@ -1457,7 +1779,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ɛ, ɛ, ɲ, ɔ, Ɲ, Ɔ</td>
+<td align="left">The following base characters are missing from the font: ɔ, ɛ, Ɲ, Ɛ, Ɔ, ɲ</td>
 <td align="left">dyu_Latn (Dyula)</td>
 </tr>
 <tr>
@@ -1465,7 +1787,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɛ, Ɔ, ɔ, Ɛ</td>
+<td align="left">The following base characters are missing from the font: Ɔ, Ɛ, ɛ, ɔ</td>
 <td align="left">fat_Latn (Fanti)</td>
 </tr>
 <tr>
@@ -1473,7 +1795,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɓ, Ɓ, ɗ, Ƴ, ƴ, Ɗ</td>
+<td align="left">The following base characters are missing from the font: ƴ, Ɓ, Ƴ, ɗ, Ɗ, ɓ</td>
 <td align="left">ff_Latn (Fulah)</td>
 </tr>
 <tr>
@@ -1481,7 +1803,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ƴ, ƙ, Ƙ, Ɗ, ɓ, Ƴ, ɗ, Ɓ</td>
+<td align="left">The following base characters are missing from the font: ƙ, Ɗ, Ƴ, ɗ, ɓ, Ɓ, Ƙ, ƴ</td>
 <td align="left">ha_Latn (Hausa)</td>
 </tr>
 <tr>
@@ -1489,7 +1811,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ɔ, Ɛ, ɔ, ɛ</td>
+<td align="left">The following base characters are missing from the font: ɛ, ɔ, Ɔ, Ɛ</td>
 <td align="left">tw_akuapem_Latn (Akuapem Twi)</td>
 </tr>
 <tr>
@@ -2133,65 +2455,21 @@ definitions.</p>
 
 * g (U+0067): L&lt;&lt;225.0,-153.0&gt;--&lt;225.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gbreve (U+011F): L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+* gbreve (U+011F): L&lt;&lt;225.0,-153.0&gt;--&lt;225.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gbreve (U+011F): L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+* gcaron (U+01E7): L&lt;&lt;225.0,-153.0&gt;--&lt;225.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gbreve (U+011F): L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* gcaron (U+01E7): L&lt;&lt;255.0,560.0&gt;--&lt;185.0,560.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gbreve (U+011F): L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* gcircumflex (U+011D): L&lt;&lt;225.0,-153.0&gt;--&lt;225.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+* gcircumflex (U+011D): L&lt;&lt;185.0,700.0&gt;--&lt;255.0,700.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0123 (U+0123): L&lt;&lt;225.0,-153.0&gt;--&lt;225.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+* gdotaccent (U+0121): L&lt;&lt;225.0,-153.0&gt;--&lt;225.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* gcaron (U+01E7): L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gcaron (U+01E7): L&lt;&lt;270.0,560.0&gt;--&lt;200.0,560.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gcircumflex (U+011D): L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gcircumflex (U+011D): L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gcircumflex (U+011D): L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gcircumflex (U+011D): L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gcircumflex (U+011D): L&lt;&lt;200.0,700.0&gt;--&lt;270.0,700.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0123 (U+0123): L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0123 (U+0123): L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0123 (U+0123): L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0123 (U+0123): L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gdotaccent (U+0121): L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gdotaccent (U+0121): L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gdotaccent (U+0121): L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* gdotaccent (U+0121): L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni1E21 (U+1E21): L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni1E21 (U+1E21): L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni1E21 (U+1E21): L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni1E21 (U+1E21): L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni01E5 (U+01E5): L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni01E5 (U+01E5): L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni01E5 (U+01E5): L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni01E5 (U+01E5): L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+* uni1E21 (U+1E21): L&lt;&lt;225.0,-153.0&gt;--&lt;225.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
 
 * h (U+0068): L&lt;&lt;375.0,250.0&gt;--&lt;435.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -2403,23 +2681,79 @@ definitions.</p>
 
 * uni0146.loclMAH: L&lt;&lt;390.0,250.0&gt;--&lt;450.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
-* a.salt: L&lt;&lt;210.0,452.0&gt;--&lt;210.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+* a.salt: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
-* a.salt: L&lt;&lt;215.0,-8.0&gt;--&lt;215.0,47.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.salt: L&lt;&lt;345.0,305.0&gt;--&lt;405.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+* a.salt: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
 * e.salt: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
 * e.salt: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.salt: L&lt;&lt;210.0,-153.0&gt;--&lt;210.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
+* g.salt: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
 
-* g.salt2: L&lt;&lt;225.0,-153.0&gt;--&lt;225.0,-208.0&gt;&gt; has the same coordinates as a previous segment.
+* g.salt: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* g.salt: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* g.salt: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
 * a.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
 * a.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aacute.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aacute.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* abreve.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* abreve.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss01: L&lt;&lt;260.0,560.0&gt;--&lt;190.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss01: L&lt;&lt;190.0,700.0&gt;--&lt;260.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss01: L&lt;&lt;190.0,700.0&gt;--&lt;260.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
 * g.ss01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -2429,9 +2763,123 @@ definitions.</p>
 
 * g.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
+* gbreve.ss01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss01: L&lt;&lt;270.0,560.0&gt;--&lt;200.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss01: L&lt;&lt;200.0,700.0&gt;--&lt;270.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
 * a.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
 * a.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aacute.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aacute.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* abreve.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* abreve.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss02: L&lt;&lt;260.0,560.0&gt;--&lt;190.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01CE.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss02: L&lt;&lt;190.0,700.0&gt;--&lt;260.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* acircumflex.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss02: L&lt;&lt;190.0,700.0&gt;--&lt;260.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EAD.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* adieresis.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA1.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* agrave.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* amacron.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aogonek.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* aring.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* atilde.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
 * b.ss02: L&lt;&lt;75.0,70.0&gt;--&lt;135.0,60.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -2447,9 +2895,139 @@ definitions.</p>
 
 * g.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 
+* gbreve.ss02: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss02: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gbreve.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;270.0,560.0&gt;--&lt;200.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcaron.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;200.0,700.0&gt;--&lt;270.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gcircumflex.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss02: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss02: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0123.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss02: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss02: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* gdotaccent.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss02: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss02: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1E21.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss02: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss02: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss02: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni01E5.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
 * q.ss02: L&lt;&lt;235.0,48.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
 
 * q.ss02: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,453.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;225.0,452.0&gt;--&lt;225.0,508.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;230.0,-8.0&gt;--&lt;230.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;360.0,305.0&gt;--&lt;420.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;535.0,48.0&gt;--&lt;535.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae.ss03: L&lt;&lt;420.0,250.0&gt;--&lt;360.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* e.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* e.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eacute.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eacute.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecaron.ss03: L&lt;&lt;270.0,560.0&gt;--&lt;200.0,560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecaron.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecaron.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0229.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0229.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecircumflex.ss03: L&lt;&lt;200.0,700.0&gt;--&lt;270.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecircumflex.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ecircumflex.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC7.ss03: L&lt;&lt;200.0,700.0&gt;--&lt;270.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC7.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC7.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edieresis.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edieresis.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edotaccent.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* edotaccent.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB9.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB9.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* egrave.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* egrave.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* emacron.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* emacron.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eogonek.ss03: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* eogonek.ss03: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBD.ss03: L&lt;&lt;30.0,250.0&gt;--&lt;90.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBD.ss03: L&lt;&lt;235.0,48.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBD.ss03: L&lt;&lt;235.0,453.0&gt;--&lt;235.0,508.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni03A9 (U+03A9): L&lt;&lt;264.0,60.0&gt;--&lt;264.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -2610,38 +3188,6 @@ definitions.</p>
 * circumflex (U+02C6): L&lt;&lt;125.0,700.0&gt;--&lt;195.0,700.0&gt;&gt; has the same coordinates as a previous segment.
 
 * caron (U+02C7): L&lt;&lt;195.0,560.0&gt;--&lt;125.0,560.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.BRACKET.varAlt01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.BRACKET.varAlt01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.BRACKET.varAlt01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.salt.BRACKET.varAlt01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.salt.BRACKET.varAlt01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* a.salt.BRACKET.varAlt01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* e.BRACKET.varAlt01: L&lt;&lt;205.0,48.0&gt;--&lt;205.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* e.BRACKET.varAlt01: L&lt;&lt;90.0,250.0&gt;--&lt;30.0,250.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.BRACKET.varAlt01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.BRACKET.varAlt01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.BRACKET.varAlt01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.BRACKET.varAlt01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.salt2.BRACKET.varAlt01: L&lt;&lt;365.0,60.0&gt;--&lt;425.0,70.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.salt2.BRACKET.varAlt01: L&lt;&lt;425.0,430.0&gt;--&lt;365.0,440.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.salt2.BRACKET.varAlt01: L&lt;&lt;235.0,47.0&gt;--&lt;235.0,-8.0&gt;&gt; has the same coordinates as a previous segment.
-
-* g.salt2.BRACKET.varAlt01: L&lt;&lt;235.0,508.0&gt;--&lt;235.0,452.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -2687,21 +3233,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, todhri, tifinagh, canadian-aboriginal, syriac, old-permic, malayalam, hebrew, coptic, duployan, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, math, hebrew, malayalam, canadian-aboriginal, duployan, tifinagh, tai-le, syriac, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, tifinagh, syriac, caucasian-albanian, cherokee, sunuwar, gothic</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, cherokee, tifinagh, thai, syriac, gothic, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
@@ -2730,12 +3276,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bhaiksuki, rejang, tifinagh, limbu, sogdian, hatran, syriac, dogra, grantha, gujarati, tai-tham, myanmar, warang-citi, hanifi-rohingya, sharada, khudawadi, cham, tamil, buginese, sinhala, avestan, thai, bengali, javanese, oriya, newa, malayalam, kharoshthi, gunjala-gondi, lepcha, pahawh-hmong, psalter-pahlavi, kaithi, nko, saurashtra, syloti-nagri, duployan, takri, batak, siddham, buhid, tibetan, meetei-mayek, lao, chakma, mahajani, yi, kannada, hebrew, khmer, devanagari, thaana, masaram-gondi, gurmukhi, manichaean, brahmi, phags-pa, tai-le, new-tai-lue, hanunoo, mongolian, sundanese, tagalog, zanabazar-square, tagbanwa, telugu, mandaic, tai-viet, balinese, modi, khojki, tirhuta, kayah-li, arabic</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bhaiksuki, rejang, tifinagh, limbu, sogdian, syriac, dogra, grantha, gujarati, tai-tham, myanmar, warang-citi, hanifi-rohingya, sharada, khudawadi, cham, tamil, buginese, sinhala, avestan, thai, bengali, javanese, oriya, newa, malayalam, kharoshthi, gunjala-gondi, lepcha, pahawh-hmong, psalter-pahlavi, kaithi, nko, saurashtra, syloti-nagri, duployan, takri, batak, siddham, buhid, tibetan, meetei-mayek, lao, chakma, mahajani, yi, kannada, hebrew, khmer, devanagari, old-hungarian, thaana, masaram-gondi, gurmukhi, manichaean, brahmi, phags-pa, tai-le, new-tai-lue, hanunoo, mongolian, sundanese, tagalog, zanabazar-square, tagbanwa, telugu, mandaic, tai-viet, balinese, modi, khojki, tirhuta, kayah-li, arabic</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, hebrew, thaana, phags-pa, nko, arabic</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, hebrew, thaana, phags-pa, nko</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: siddham, lao, javanese, sogdian, kharoshthi, hebrew, zanabazar-square, telugu, tagbanwa, khudawadi, hanunoo, gunjala-gondi, syriac, thai, balinese, tirhuta, brahmi, pahawh-hmong, dogra, mahajani, sundanese, sinhala, bengali, tagalog, takri, malayalam, nko, gurmukhi, cham, buhid, tai-tham, khmer, manichaean, myanmar, tibetan, bhaiksuki, devanagari, phags-pa, mandaic, tamil, kayah-li, oriya, yi, grantha, batak, warang-citi, limbu, tai-viet, lepcha, tifinagh, tai-le, thaana, hanifi-rohingya, chakma, gujarati, kaithi, rejang, saurashtra, mongolian, sharada, duployan, new-tai-lue, arabic, avestan, meetei-mayek, modi, newa, psalter-pahlavi, kannada, buginese, khojki, hatran, syloti-nagri, masaram-gondi</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: siddham, lao, javanese, sogdian, kharoshthi, hebrew, zanabazar-square, telugu, tagbanwa, khudawadi, hanunoo, gunjala-gondi, syriac, thai, balinese, tirhuta, brahmi, pahawh-hmong, dogra, mahajani, sundanese, sinhala, bengali, tagalog, takri, malayalam, nko, gurmukhi, cham, buhid, tai-tham, khmer, manichaean, myanmar, tibetan, bhaiksuki, devanagari, phags-pa, mandaic, tamil, kayah-li, oriya, yi, grantha, batak, warang-citi, limbu, tai-viet, lepcha, tifinagh, tai-le, thaana, hanifi-rohingya, chakma, old-hungarian, gujarati, kaithi, rejang, saurashtra, mongolian, sharada, duployan, new-tai-lue, arabic, avestan, meetei-mayek, modi, newa, psalter-pahlavi, kannada, buginese, khojki, syloti-nagri, masaram-gondi</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, thaana, hebrew, nko, arabic, syriac</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, hebrew, syriac, nko, thaana</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -2759,19 +3305,19 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, yi, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -2779,9 +3325,9 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: sogdian, grantha, hanifi-rohingya, tamil, buginese, javanese, saurashtra, syloti-nagri, duployan, tibetan, mahajani, old-permic, hebrew, devanagari, thaana, gurmukhi, phags-pa, wancho, hanunoo, sundanese, caucasian-albanian, bassa-vah, tai-viet, balinese, ahom, tai-tham, myanmar, sharada, coptic, cham, canadian-aboriginal, oriya, newa, adlam, takri, soyombo, batak, buhid, meetei-mayek, khmer, masaram-gondi, brahmi, miao, tai-le, new-tai-lue, telugu, modi, khojki, tirhuta, zanabazar-square, rejang, tifinagh, limbu, dogra, gujarati, khudawadi, thai, bengali, malayalam, mende-kikakui, lepcha, psalter-pahlavi, math, mongolian, armenian, mandaic, kayah-li, symbols, bhaiksuki, syriac, elbasan, warang-citi, sinhala, kharoshthi, gunjala-gondi, pahawh-hmong, kaithi, nko, osage, siddham, music, lao, chakma, yi, kannada, manichaean, tagalog, marchen, tagbanwa</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, japanese, chinese-simplified, chinese-traditional, phags-pa, nushu</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: lao, symbols, old-permic, sundanese, bengali, malayalam, canadian-aboriginal, cham, khmer, miao, tibetan, phags-pa, tamil, tai-viet, tifinagh, tai-le, soyombo, gujarati, mongolian, osage, duployan, thai, khojki, coptic, sogdian, khudawadi, hanunoo, balinese, brahmi, caucasian-albanian, pahawh-hmong, mahajani, sinhala, tagalog, takri, gurmukhi, buhid, oriya, yi, limbu, hanifi-rohingya, rejang, armenian, kannada, buginese, syloti-nagri, tagbanwa, masaram-gondi, javanese, kharoshthi, hebrew, zanabazar-square, telugu, ahom, manichaean, bhaiksuki, devanagari, mandaic, math, kayah-li, marchen, wancho, thaana, chakma, saurashtra, mende-kikakui, new-tai-lue, meetei-mayek, newa, siddham, elbasan, gunjala-gondi, syriac, tirhuta, dogra, nko, tai-tham, myanmar, adlam, grantha, batak, warang-citi, music, lepcha, bassa-vah, kaithi, sharada, psalter-pahlavi, modi</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: phags-pa, chinese-traditional, chinese-simplified, yi, japanese, chinese-hongkong, nushu</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
@@ -2805,8 +3351,8 @@ definitions.</p>
 <li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
 <li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
-<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: chinese-simplified, yi, japanese, math</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: chinese-simplified, yi, japanese, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -2843,8 +3389,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 2 | 10 | 173 | 13 | 257 | 0 | 
-| 0% | 0% | 0% | 2% | 38% | 3% | 56% | 0% | 
+| 0 | 0 | 4 | 10 | 171 | 13 | 257 | 0 | 
+| 0% | 0% | 1% | 2% | 38% | 3% | 56% | 0% | 
 
 
 
