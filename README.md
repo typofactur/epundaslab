@@ -72,9 +72,69 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - Dcroat = Eth
 - kerning with Kern On
 
-**29 June 2025. Version 2.205**
+**29 June 2025. Version 1.103**
 - lozenge added
 - .notdef added
+
+**30 August 2025. Version 1.200**
+- version number for June 29 in README corrected in 1.103
+- Regular a: master compatibility fixed (alternatives deleted)
+- Regular a.salt metrics right
+- Regular amacron modified
+- Regular e: master compatibility fixed (alternatives deleted)
+- Regular g: master compatibility fixed (alternatives deleted)
+- Regular g.salt2 deleted
+- Italic a: master compatibility fixed (alternatives deleted)
+- Italic a.salt
+- Italic amacron modified
+- Italic e: master compatibility fixed (alternatives deleted)
+- Italic e.salt
+- Italic g: master compatibility fixed (alternatives deleted)
+- Italic g.ss02: master compatibility fixed (alternatives deleted)
+- abreve.ss01 and ss02
+- abreve.ss01
+- acaron.ss01
+- acircumflex.ss01
+- acircumflexdotbelow.ss01
+- adieresis.ss01 and ss02
+- adotbelow.ss01 and ss02
+- agrave.ss01 and ss02
+- amacron.ss01 and ss02
+- aogonek.ss01 and ss02
+- aring.ss01 and ss02
+- atilde.ss01 and ss02
+- style set 3 width alternative e
+- AE with serifs
+- ae.ss03
+- Italic ae modified
+- eacute.ss03
+- ecaron.ss03
+- ecedilla.ss03
+- ecircumflex.ss03
+- ecircumflexdotbelow.ss03
+- edieresis.ss03
+- edotaccent.ss03
+- edotbelow.ss03
+- egrave.ss03
+- emacron.ss03
+- eogonek.ss03
+- etilde.ss03
+- gbreve.ss01 and ss02
+- gcaron.ss01 and ss02
+- gcircumflex.ss01 and ss02
+- gcommaaccent.ss01 and ss02
+- gdotaccent.ss01 and ss02
+- gmacron.ss01 and ss02
+- gstroke.ss01 and ss02
+- gstroke modified
+- deleted unexported glyphs
+- k.salt deleted
+- Gstroke with serif
+- Italic a.ss01 = double-storey
+- Italic g.ss01 = double-storey
+- e.ogonek position
+- Macute corrected
+
 
 
 ## License
