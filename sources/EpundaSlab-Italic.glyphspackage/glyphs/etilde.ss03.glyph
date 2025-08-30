@@ -1,0 +1,34 @@
+{
+glyphname = etilde.ss03;
+kernRight = KO_eacute;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (44,0);
+ref = tildecomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 460;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (1,0);
+ref = tildecomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 500;
+}
+);
+metricLeft = "=e.ss03";
+metricRight = "=e.ss03";
+}

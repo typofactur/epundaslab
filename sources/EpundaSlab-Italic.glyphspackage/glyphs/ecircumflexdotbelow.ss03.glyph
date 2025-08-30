@@ -1,0 +1,43 @@
+{
+glyphname = ecircumflexdotbelow.ss03;
+kernLeft = KO_e;
+kernRight = KO_eacute;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (145,0);
+ref = dotbelowcomb;
+},
+{
+pos = (74,0);
+ref = circumflexcomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 460;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (106,0);
+ref = dotbelowcomb;
+},
+{
+pos = (56,0);
+ref = circumflexcomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 485;
+}
+);
+metricLeft = "=e.ss03";
+metricRight = "=e.ss03";
+}

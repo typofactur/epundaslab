@@ -8,6 +8,10 @@ layerId = m01;
 shapes = (
 {
 ref = a;
+},
+{
+pos = (-22,0);
+ref = macroncomb;
 }
 );
 width = 495;
@@ -17,6 +21,10 @@ layerId = m002;
 shapes = (
 {
 ref = a;
+},
+{
+pos = (8,0);
+ref = macroncomb;
 }
 );
 width = 545;

@@ -1,0 +1,35 @@
+{
+glyphname = agrave.ss01;
+kernLeft = KO_a;
+kernRight = KO_n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (80,0);
+ref = gravecomb;
+},
+{
+ref = a.ss01;
+}
+);
+width = 500;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (110,0);
+ref = gravecomb;
+},
+{
+ref = a.ss01;
+}
+);
+width = 565;
+}
+);
+metricLeft = "=a.ss01";
+metricRight = "=a.ss01";
+}

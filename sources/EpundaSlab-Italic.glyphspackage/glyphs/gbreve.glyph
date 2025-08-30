@@ -10,11 +10,11 @@ shapes = (
 ref = g.ss01;
 },
 {
-pos = (33,0);
+pos = (3,0);
 ref = brevecomb;
 }
 );
-width = 476;
+width = 500;
 },
 {
 layerId = m004;
@@ -23,11 +23,11 @@ shapes = (
 ref = g.ss01;
 },
 {
-pos = (61,0);
+pos = (28,0);
 ref = brevecomb;
 }
 );
-width = 516;
+width = 565;
 }
 );
 unicode = 287;

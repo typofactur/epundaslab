@@ -10,7 +10,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (163,0);
+pos = (155,0);
 ref = ringcomb;
 }
 );

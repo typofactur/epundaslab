@@ -5,11 +5,11 @@ layers = (
 layerId = m003;
 shapes = (
 {
-ref = M.salt;
-},
-{
 pos = (355,167);
 ref = acutecomb;
+},
+{
+ref = M;
 }
 );
 width = 788;
@@ -18,11 +18,11 @@ width = 788;
 layerId = m004;
 shapes = (
 {
-ref = M.salt;
-},
-{
 pos = (282,167);
 ref = acutecomb;
+},
+{
+ref = M;
 }
 );
 width = 800;

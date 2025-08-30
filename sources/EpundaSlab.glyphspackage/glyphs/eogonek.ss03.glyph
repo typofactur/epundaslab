@@ -1,0 +1,35 @@
+{
+glyphname = eogonek.ss03;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e.ss03;
+},
+{
+pos = (266,45);
+ref = ogonekcomb;
+}
+);
+width = 465;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = e.ss03;
+},
+{
+pos = (315,45);
+ref = ogonekcomb;
+}
+);
+width = 500;
+}
+);
+metricLeft = "=e.ss03";
+metricRight = "=e.ss03";
+}

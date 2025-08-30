@@ -1,0 +1,35 @@
+{
+glyphname = egrave.ss03;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (90,0);
+ref = gravecomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 465;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (115,0);
+ref = gravecomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 500;
+}
+);
+metricLeft = "=e.ss03";
+metricRight = "=e.ss03";
+}

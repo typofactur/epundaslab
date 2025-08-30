@@ -1,0 +1,35 @@
+{
+glyphname = adotbelow.ss02;
+kernLeft = KO_a;
+kernRight = KO_n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (170,0);
+ref = dotbelowcomb;
+},
+{
+ref = a.ss02;
+}
+);
+width = 500;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (133,0);
+ref = dotbelowcomb;
+},
+{
+ref = a.ss02;
+}
+);
+width = 565;
+}
+);
+metricLeft = "=a.ss02";
+metricRight = "=a.ss02";
+}

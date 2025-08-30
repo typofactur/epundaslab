@@ -1,0 +1,35 @@
+{
+glyphname = eacute.ss03;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (160,0);
+ref = acutecomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 465;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (105,0);
+ref = acutecomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 500;
+}
+);
+metricLeft = "=e.ss03";
+metricRight = "=e.ss03";
+}

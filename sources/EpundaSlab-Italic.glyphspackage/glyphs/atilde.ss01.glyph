@@ -1,0 +1,35 @@
+{
+glyphname = atilde.ss01;
+kernLeft = KO_a;
+kernRight = KO_a;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (60,0);
+ref = tildecomb;
+},
+{
+ref = a.ss01;
+}
+);
+width = 480;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (39,0);
+ref = tildecomb;
+},
+{
+ref = a.ss01;
+}
+);
+width = 545;
+}
+);
+metricLeft = "=a.ss01";
+metricRight = "=a.ss01";
+}

@@ -7,9 +7,6 @@ layers = (
 layerId = m003;
 shapes = (
 {
-ref = k;
-},
-{
 pos = (168,0);
 ref = commaaccentcomb;
 }
@@ -19,9 +16,6 @@ width = 480;
 {
 layerId = m004;
 shapes = (
-{
-ref = k;
-},
 {
 pos = (168,0);
 ref = commaaccentcomb;

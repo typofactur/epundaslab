@@ -1,0 +1,35 @@
+{
+glyphname = emacron.ss03;
+kernLeft = KO_e;
+kernRight = KO_eacute;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+pos = (-13,0);
+ref = macroncomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 460;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (3,0);
+ref = macroncomb;
+},
+{
+ref = e.ss03;
+}
+);
+width = 485;
+}
+);
+metricLeft = "=e.ss03";
+metricRight = "=e.ss03";
+}

@@ -1,0 +1,23 @@
+{
+glyphname = e.ss03;
+layers = (
+{
+layerId = m004;
+shapes = (
+{
+ref = e.salt;
+}
+);
+width = 485;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = e.salt;
+}
+);
+width = 460;
+}
+);
+}

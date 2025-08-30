@@ -1,0 +1,33 @@
+{
+glyphname = gbreve.ss02;
+kernLeft = KO_e;
+kernRight = KO_g.ss01;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (33,0);
+ref = brevecomb;
+},
+{
+ref = g.ss02;
+}
+);
+width = 500;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (61,0);
+ref = brevecomb;
+},
+{
+ref = g.ss02;
+}
+);
+width = 565;
+}
+);
+}

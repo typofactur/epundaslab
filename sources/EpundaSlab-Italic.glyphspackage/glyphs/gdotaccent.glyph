@@ -10,11 +10,11 @@ shapes = (
 ref = g.ss01;
 },
 {
-pos = (175,0);
+pos = (145,0);
 ref = dotaccentcomb;
 }
 );
-width = 476;
+width = 500;
 },
 {
 layerId = m004;
@@ -23,11 +23,11 @@ shapes = (
 ref = g.ss01;
 },
 {
-pos = (149,0);
+pos = (116,0);
 ref = dotaccentcomb;
 }
 );
-width = 516;
+width = 565;
 }
 );
 unicode = 289;
