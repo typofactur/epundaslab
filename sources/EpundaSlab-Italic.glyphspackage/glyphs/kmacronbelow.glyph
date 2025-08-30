@@ -9,6 +9,9 @@ shapes = (
 {
 pos = (-8,0);
 ref = macronbelowcomb;
+},
+{
+ref = k;
 }
 );
 width = 480;
@@ -19,6 +22,9 @@ shapes = (
 {
 pos = (47,0);
 ref = macronbelowcomb;
+},
+{
+ref = k;
 }
 );
 width = 560;

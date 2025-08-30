@@ -9,6 +9,9 @@ shapes = (
 {
 pos = (168,0);
 ref = commaaccentcomb;
+},
+{
+ref = k;
 }
 );
 width = 480;
@@ -19,6 +22,9 @@ shapes = (
 {
 pos = (168,0);
 ref = commaaccentcomb;
+},
+{
+ref = k;
 }
 );
 width = 560;

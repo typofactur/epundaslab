@@ -9,6 +9,9 @@ shapes = (
 {
 pos = (123,200);
 ref = caroncomb;
+},
+{
+ref = k;
 }
 );
 width = 480;
@@ -19,6 +22,9 @@ shapes = (
 {
 pos = (144,190);
 ref = caroncomb;
+},
+{
+ref = k;
 }
 );
 width = 560;
