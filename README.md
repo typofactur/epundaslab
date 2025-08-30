@@ -134,6 +134,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - Italic g.ss01 = double-storey
 - e.ogonek position
 - Macute corrected
+
+**30 August 2025. Version 1.300**
 - Italic: missing k added
 
 
