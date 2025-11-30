@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -22,7 +22,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2025-08-30 21:32:35 +0000";
+date = "2025-11-30 12:54:10 +0000";
 familyName = "Epunda Slab";
 featurePrefixes = (
 {
@@ -1311,5 +1311,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.34";
 };
 versionMajor = 1;
-versionMinor = 300;
+versionMinor = 310;
 }

@@ -10,6 +10,7 @@ shapes = (
 ref = i;
 },
 {
+pos = (55,0);
 ref = dotbelowcomb;
 }
 );
@@ -22,6 +23,7 @@ shapes = (
 ref = i;
 },
 {
+pos = (55,0);
 ref = dotbelowcomb;
 }
 );

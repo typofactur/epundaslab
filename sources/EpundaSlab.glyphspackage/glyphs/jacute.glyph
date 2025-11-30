@@ -22,11 +22,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-40,0);
+pos = (-2,0);
 ref = acutecomb;
 }
 );
-width = 230;
+width = 305;
 }
 );
 }

@@ -7,15 +7,15 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (52,0);
+pos = (58,0);
 },
 {
 name = ogonek;
-pos = (82,0);
+pos = (163,0);
 },
 {
 name = top;
-pos = (158,500);
+pos = (164,500);
 }
 );
 layerId = m003;
@@ -23,28 +23,40 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(82,0,l),
-(188,500,l),
-(128,500,l),
-(22,0,l)
+(93,0,l),
+(199,500,l),
+(139,500,l),
+(33,0,l)
 );
+},
+{
+pos = (139,500);
+ref = _serif.Spur;
+},
+{
+pos = (33,0);
+ref = _serif.I.BL;
+},
+{
+pos = (93,0);
+ref = _serif.I.BR;
 }
 );
-width = 210;
+width = 221;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (72,0);
+pos = (117,0);
 },
 {
 name = ogonek;
-pos = (162,0);
+pos = (282,0);
 },
 {
 name = top;
-pos = (178,500);
+pos = (223,500);
 }
 );
 layerId = m004;
@@ -52,16 +64,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(162,0,l),
-(268,500,l),
-(88,500,l),
-(-18,0,l)
+(212,0,l),
+(319,500,l),
+(139,500,l),
+(32,0,l)
 );
+},
+{
+pos = (139,500);
+ref = _serif.Spur;
+},
+{
+pos = (32,0);
+ref = _serif.I.BL;
+},
+{
+pos = (212,0);
+ref = _serif.I.BR;
 }
 );
-width = 250;
+width = 340;
 }
 );
-metricRight = "=|";
 unicode = 305;
 }

@@ -138,6 +138,14 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **30 August 2025. Version 1.300**
 - Italic: missing k added
 
+**31 August 2025. Version 1.301**
+- gstroke modified
+
+**30 November 2025. Version 1.310**
+- missing serifs added in idotless, iacute, icaron, icircumflex, idieresis, idotaccent, igrave, imacron, iogonek, itilde
+- positioning idotbelow
+- missing serifs added in jdotless and jcircumflex
+
 
 ## License
 

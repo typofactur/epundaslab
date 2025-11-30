@@ -4,6 +4,12 @@ kernLeft = KO_i;
 kernRight = KO_i;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (58,0);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -48,6 +54,12 @@ ref = _serif.I.BR;
 width = 221;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (117,0);
+}
+);
 layerId = m004;
 shapes = (
 {

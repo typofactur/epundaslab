@@ -10,11 +10,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-55,0);
+pos = (-45,0);
 ref = caroncomb;
 }
 );
-width = 210;
+width = 230;
 },
 {
 layerId = m002;
@@ -23,11 +23,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-70,0);
+pos = (-25,0);
 ref = caroncomb;
 }
 );
-width = 250;
+width = 340;
 }
 );
 unicode = 464;

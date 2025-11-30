@@ -8,11 +8,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-30,0);
+pos = (-24,0);
 ref = dieresiscomb;
 }
 );
-width = 210;
+width = 221;
 },
 {
 layerId = m004;
@@ -21,11 +21,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-89,0);
+pos = (-44,0);
 ref = dieresiscomb;
 }
 );
-width = 250;
+width = 340;
 }
 );
 unicode = 239;
